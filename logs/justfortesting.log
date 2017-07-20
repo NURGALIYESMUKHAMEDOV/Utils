@@ -1,6 +1,2 @@
 2017-07-16 22:00:01,419 +0600 [main] INFO  (ConnectionImpl.java:32) - Configuration property file search order:
-    user.dir = C:\ESBD_forall\ESBDt\UtilsV1\Utils
-    user.home = C:\Users\Nurgali.Yesmukhamedo
-    java.home = C:\Program Files\Java\jdk1.8.0_91\jre
-2017-07-16 22:00:01,447 +0600 [main] INFO  (ConnectionImpl.java:32) - Loading configuration resource: FileNetBuild.properties
-2017-07-16 22:00:01,549 +0600 [main] INFO  (AuthnLogLog4j.java:25) - [J2EEType] Detecting app server : tried to get InitialContext but that did not work so will try other method; message from trial: Failed to ini
+    user.dir = C:\ESBD_forall\ESBDt\UtilsV1\Util
