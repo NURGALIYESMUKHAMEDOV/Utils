@@ -1,0 +1,1105 @@
+
+{
+  "pages": [
+    {
+      "title": "titleContractPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Страховые договора",
+          "toolbarDef": "ComponentsPlugin_DocumentListMenuType",
+          "myToolbarDef": {}
+
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "className01",
+              "contentClass": "ESBD_InsuranceContract",
+              "title": "titleInsuranceContract",
+              "description": "classesDescriptionInsuranceContract",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{00AAB35B-0000-C01F-A04F-90D70E5472EE}",
+              "toolbarDef": "ESBDPlugin_ContractWithPolicePaneMenuType"
+            },
+            {
+              "className": "className02",
+              "contentClass": "ESBD_InsuranceContract_OS_RNS",
+              "title": "titleInsuranceContract_OS_RNS",
+              "description": "classesDescriptionInsuranceContract_OS_RNS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50ABAE5B-0000-CB17-B31E-74822AB5C68B}"
+            },
+            {
+              "className": "className03",
+              "contentClass": "ESBD_Contract_AGRICULTURE",
+              "title": "title_AGRICULTURE",
+              "description": "classesDescription_AGRICULTURE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0200-CA2E-8FF7-7BBD5B667637}"
+            },
+            {
+              "className": "className04",
+              "contentClass": "ESBD_Contract_OSGPO_AUDITORS",
+              "title": "title_OSGPO_AUDITORS",
+              "description": "classesDescription_OSGPO_AUDITORS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{D0C2AE5B-0000-C61E-A5B1-91E58A80C250}"
+            },
+            {
+              "className": "className05",
+              "contentClass": "ESBD_Contract_OSGPO_DO",
+              "title": "title_OSGPO_DO",
+              "description": "classesDescription_OSGPO_DO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0500-C5CF-99DE-852150E7D647}"
+            },
+            {
+              "className": "className06",
+              "contentClass": "ESBD_Contract_OSGPO_PASSENGERS",
+              "title": "title_OSGPO_PASSENGERS",
+              "description": "classesDescription_OSGPO_PASSENGERS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0400-C9DA-B43B-1B37805951C7}"
+            },
+            {
+              "className": "className07",
+              "contentClass": "ESBD_Contract_OSGPO_TOUR",
+              "title": "title_OSGPO_TOUR",
+              "description": "classesDescription_OSGPO_TOUR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{30B07F5B-0100-CBF7-B7D9-2115C32E2EE6}"
+            },
+            {
+              "className": "className08",
+              "contentClass": "ESBD_Contract_OSGPO_NOTARIUS",
+              "title": "title_OSGPO_NOTARIUS",
+              "description": "classesDescription_OSGPO_NOTARIUS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0300-CAE5-8B4A-CC1CA946A7C5}"
+            },
+            {
+              "className": "className09",
+              "contentClass": "ESBD_Contract_OS_ECO",
+              "title": "title_OS_ECO",
+              "description": "classesDescription_OS_ECO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40B07F5B-0100-C7F2-BEFD-D316DBB29ABE}"
+            },
+            {
+              "className": "className10",
+              "contentClass": "ESBD_Contract_DS_AUTO",
+              "title": "title_DS_AUTO",
+              "description": "classesDescription_DS_AUTO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0400-CEF0-9265-F5C27BB07880}"
+            },
+            {
+              "className": "className11",
+              "contentClass": "ESBD_Contract_DS_ANNUITY",
+              "title": "title_DS_ANNUITY",
+              "description": "classesDescription_DS_ANNUITY",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0100-CBFC-A31B-27DBB4A44C93}"
+            },
+            {
+              "className": "className12",
+              "contentClass": "ESBD_Contract_DS_WATER",
+              "title": "title_DS_WATER",
+              "description": "classesDescription_DS_WATER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0200-C5EF-93F5-2939E4FA0DE9}"
+            },
+            {
+              "className": "className13",
+              "contentClass": "ESBD_Contract_DS_AIR",
+              "title": "title_DS_AIR",
+              "description": "classesDescription_DS_AIR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{C0D1A95C-0000-C017-8F9A-0069207C56BF}"
+            },
+            {
+              "className": "className14",
+              "contentClass": "ESBD_Contract_DS_GUARANTEE",
+              "title": "title_DS_GUARANTEE",
+              "description": "classesDescription_DS_GUARANTEE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0500-C3B9-87CA-79F12E6AC1EC}"
+            },
+            {
+              "className": "className15",
+              "contentClass": "ESBD_Contract_DS_GPO_AUTO",
+              "title": "title_DS_GPO_AUTO",
+              "description": "classesDescription_DS_GPO_AUTO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0300-C618-8CC1-1DE3ECBF436F}"
+            },
+            {
+              "className": "className16",
+              "contentClass": "ESBD_Contract_DS_GPO_WATER",
+              "title": "title_DS_GPO_WATER",
+              "description": "classesDescription_DS_GPO_WATER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{90D2A95C-0000-C010-9AA7-D6C78DA2A911}"
+            },
+            {
+              "className": "className17",
+              "contentClass": "ESBD_Contract_DS_GPO_AIR",
+              "title": "title_DS_GPO_AIR",
+              "description": "classesDescription_DS_GPO_AIR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0500-C6E7-B76F-EB3930AE2AC1}"
+            },
+            {
+              "className": "className18",
+              "contentClass": "ESBD_Contract_DS_GPO_OTHER",
+              "title": "title_DS_GPO_OTHER",
+              "description": "classesDescription_DS_GPO_OTHER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50CFA95C-0000-CE1B-B1B8-9B46808E8EEB}"
+            },
+            {
+              "className": "className19",
+              "contentClass": "ESBD_Contract_DS_CARGO",
+              "title": "title_DS_CARGO",
+              "description": "classesDescription_DS_CARGO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0600-C8AC-B6AA-BCA9778DCD7D}"
+            },
+            {
+              "className": "className20",
+              "contentClass": "ESBD_Contract_DS_LOAN",
+              "title": "title_DS_LOAN",
+              "description": "classesDescription_DS_LOAN",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0000-C1A6-A536-3EB6C5E973A9}"
+            },
+            {
+              "className": "className21",
+              "contentClass": "ESBD_Contract_DS_PROPERTY",
+              "title": "title_DS_PROPERTY",
+              "description": "classesDescription_DS_PROPERTY",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0100-C498-99DF-BED97C5E369B}"
+            },
+            {
+              "className": "className22",
+              "contentClass": "ESBD_Contract_DS_MORTGAGE",
+              "title": "title_DS_MORTGAGE",
+              "description": "classesDescription_DS_MORTGAG",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0100-C502-A750-67B90A2255CC}"
+            },
+            {
+              "className": "className23",
+              "contentClass": "ESBD_Contract_DS_HEALTH",
+              "title": "title_DS_HEALTH",
+              "description": "classesDescription_DS_HEALTH",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0200-CD8E-B62C-2E744271AAEC}"
+            },
+            {
+              "className": "className24",
+              "contentClass": "ESBD_Contract_DS_ACCIDENT",
+              "title": "title_DS_ACCIDENT",
+              "description": "classesDescription_DS_ACCIDENT",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0600-C64F-B85C-F36286AA66EA}"
+            },
+            {
+              "className": "className25",
+              "contentClass": "ESBD_Contract_DS_OTHER_LOSSES",
+              "title": "title_DS_OTHER_LOSSES",
+              "description": "classesDescription_DS_OTHER_LOSSES",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0300-CD7C-9CFB-3EB8A69FAC5F}"
+            },
+            {
+              "className": "className26",
+              "contentClass": "ESBD_Contract_DS_LIFE",
+              "title": "title_DS_LIFE",
+              "description": "classesDescription_DS_LIFE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0500-C25C-9DCF-6DA9E6275ACE}"
+            },
+            {
+              "className": "className27",
+              "contentClass": "ESBD_Contract_DS_LEGAL_COSTS",
+              "title": "title_DS_LEGAL_COSTS",
+              "description": "classesDescription_DS_LEGAL_COSTS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0800-CA2C-9192-94ABC74CEB80}"
+            },
+            {
+              "className": "className28",
+              "contentClass": "ESBD_Contract_DS_TITLE",
+              "title": "title_DS_TITLE",
+              "description": "classesDescription_DS_TITLE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0000-C1AD-809D-BF0C5F0A6F3C}"
+            },
+            {
+              "className": "className29",
+              "contentClass": "ESBD_Contract_DS_LOSSES",
+              "title": "title_DS_LOSSES",
+              "description": "classesDescription_DS_LOSSES",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0100-C196-99FC-D771C9942C7B}"
+            },
+            {
+              "className": "className30",
+              "contentClass": "ESBD_Contract_DS_RAILWAYS",
+              "title": "title_DS_RAILWAYS",
+              "description": "classesDescription_DS_RAILWAYS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0700-C892-A820-FA71E14BBE01}"
+            },
+            {
+              "className": "Test dogovor",
+              "contentClass": "ESBD_Contract_DS_RAILWAYS",
+              "title": "Tittle test dogovor",
+              "description": "Test dogovor description",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0700-C892-A820-FA71E14BBE01}"
+            }
+          ]
+        },
+        "modify": {
+          "toolbarDef": "ESBDPlugin_ContractPaneMenuType",
+          "classes": [
+            {
+              "className": "className01",
+              "contentClass": "ESBD_InsuranceContract",
+              "title": "titleInsuranceContract",
+              "description": "classesDescriptionInsuranceContract",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{00AAB35B-0000-C01F-A04F-90D70E5472EE}",
+              "toolbarDef": "ESBDPlugin_ContractWithPolicePaneMenuType"
+            },
+            {
+              "className": "className02",
+              "contentClass": "ESBD_InsuranceContract_OS_RNS",
+              "title": "titleInsuranceContract_OS_RNS",
+              "description": "classesDescriptionInsuranceContract_OS_RNS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50ABAE5B-0000-CB17-B31E-74822AB5C68B}"
+            },
+            {
+              "className": "className03",
+              "contentClass": "ESBD_Contract_OSGPO_PASSENGERS",
+              "title": "title_OSGPO_PASSENGERS",
+              "description": "classesDescription_OSGPO_PASSENGERS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0400-C9DA-B43B-1B37805951C7}"
+            },
+            {
+              "className": "className04",
+              "contentClass": "ESBD_Contract_OSGPO_TOUR",
+              "title": "title_OSGPO_TOUR",
+              "description": "classesDescription_OSGPO_TOUR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{30B07F5B-0100-CBF7-B7D9-2115C32E2EE6}"
+            },
+            {
+              "className": "className05",
+              "contentClass": "ESBD_Contract_OSGPO_NOTARIUS",
+              "title": "title_OSGPO_NOTARIUS",
+              "description": "classesDescription_OSGPO_NOTARIUS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0300-CAE5-8B4A-CC1CA946A7C5}"
+            },
+            {
+              "className": "className06",
+              "contentClass": "ESBD_Contract_OSGPO_AUDITORS",
+              "title": "title_OSGPO_AUDITORS",
+              "description": "classesDescription_OSGPO_AUDITORS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{D0C2AE5B-0000-C61E-A5B1-91E58A80C250}"
+            },
+            {
+              "className": "className07",
+              "contentClass": "ESBD_Contract_OS_ECO",
+              "title": "title_OS_ECO",
+              "description": "classesDescription_OS_ECO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40B07F5B-0100-C7F2-BEFD-D316DBB29ABE}"
+            },
+            {
+              "className": "className08",
+              "contentClass": "ESBD_Contract_AGRICULTURE",
+              "title": "title_AGRICULTURE",
+              "description": "classesDescription_AGRICULTURE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0200-CA2E-8FF7-7BBD5B667637}"
+            },
+            {
+              "className": "className09",
+              "contentClass": "ESBD_Contract_OSGPO_DO",
+              "title": "title_OSGPO_DO",
+              "description": "classesDescription_OSGPO_DO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0500-C5CF-99DE-852150E7D647}"
+            },
+            {
+              "className": "className10",
+              "contentClass": "ESBD_Contract_DS_AUTO",
+              "title": "title_DS_AUTO",
+              "description": "classesDescription_DS_AUTO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0400-CEF0-9265-F5C27BB07880}"
+            },
+            {
+              "className": "className11",
+              "contentClass": "ESBD_Contract_DS_ANNUITY",
+              "title": "title_DS_ANNUITY",
+              "description": "classesDescription_DS_ANNUITY",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0100-CBFC-A31B-27DBB4A44C93}"
+            },
+            {
+              "className": "className12",
+              "contentClass": "ESBD_Contract_DS_WATER",
+              "title": "title_DS_WATER",
+              "description": "classesDescription_DS_WATER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0200-C5EF-93F5-2939E4FA0DE9}"
+            },
+            {
+              "className": "className13",
+              "contentClass": "ESBD_Contract_DS_AIR",
+              "title": "title_DS_AIR",
+              "description": "classesDescription_DS_AIR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0400-CDCA-BB24-8F203B117638}"
+            },
+            {
+              "className": "className14",
+              "contentClass": "ESBD_Contract_DS_GUARANTEE",
+              "title": "title_DS_GUARANTEE",
+              "description": "classesDescription_DS_GUARANTEE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70D5A95C-0000-C51F-B9CD-B039D70D11A4}"
+            },
+            {
+              "className": "className15",
+              "contentClass": "ESBD_Contract_DS_GPO_AUTO",
+              "title": "title_DS_GPO_AUTO",
+              "description": "classesDescription_DS_GPO_AUTO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0300-C618-8CC1-1DE3ECBF436F}"
+            },
+            {
+              "className": "className16",
+              "contentClass": "ESBD_Contract_DS_GPO_WATER",
+              "title": "title_DS_GPO_WATER",
+              "description": "classesDescription_DS_GPO_WATER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0300-CAD3-B65D-75928B24D373}"
+            },
+            {
+              "className": "className17",
+              "contentClass": "ESBD_Contract_DS_GPO_AIR",
+              "title": "title_DS_GPO_AIR",
+              "description": "classesDescription_DS_GPO_AIR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0500-C6E7-B76F-EB3930AE2AC1}"
+            },
+            {
+              "className": "className18",
+              "contentClass": "ESBD_Contract_DS_GPO_OTHER",
+              "title": "title_DS_GPO_OTHER",
+              "description": "classesDescription_DS_GPO_OTHER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0000-C017-80F7-184AC4E6B6D2}"
+            },
+            {
+              "className": "className19",
+              "contentClass": "ESBD_Contract_DS_CARGO",
+              "title": "title_DS_CARGO",
+              "description": "classesDescription_DS_CARGO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0600-C8AC-B6AA-BCA9778DCD7D}"
+            },
+            {
+              "className": "className20",
+              "contentClass": "ESBD_Contract_DS_LOAN",
+              "title": "title_DS_LOAN",
+              "description": "classesDescription_DS_LOAN",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0000-C1A6-A536-3EB6C5E973A9}"
+            },
+            {
+              "className": "className21",
+              "contentClass": "ESBD_Contract_DS_PROPERTY",
+              "title": "title_DS_PROPERTY",
+              "description": "classesDescription_DS_PROPERTY",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0100-C498-99DF-BED97C5E369B}"
+            },
+            {
+              "className": "className22",
+              "contentClass": "ESBD_Contract_DS_MORTGAGE",
+              "title": "title_DS_MORTGAGE",
+              "description": "classesDescription_DS_MORTGAG",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0100-C502-A750-67B90A2255CC}"
+            },
+            {
+              "className": "className23",
+              "contentClass": "ESBD_Contract_DS_HEALTH",
+              "title": "title_DS_HEALTH",
+              "description": "classesDescription_DS_HEALTH",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0200-CD8E-B62C-2E744271AAEC}"
+            },
+            {
+              "className": "className24",
+              "contentClass": "ESBD_Contract_DS_ACCIDENT",
+              "title": "title_DS_ACCIDENT",
+              "description": "classesDescription_DS_ACCIDENT",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0600-C64F-B85C-F36286AA66EA}"
+            },
+            {
+              "className": "className25",
+              "contentClass": "ESBD_Contract_DS_OTHER_LOSSES",
+              "title": "title_DS_OTHER_LOSSES",
+              "description": "classesDescription_DS_OTHER_LOSSES",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0300-CD7C-9CFB-3EB8A69FAC5F}"
+            },
+            {
+              "className": "className26",
+              "contentClass": "ESBD_Contract_DS_LIFE",
+              "title": "title_DS_LIFE",
+              "description": "classesDescription_DS_LIFE",
+              "entryTemplate": "EntryTemplate,{E6C5F599-D591-45AF-AE13-C3D43803EB24},{4073415B-0000-C812-9BBC-84885172EB90}"
+            },
+            {
+              "className": "className27",
+              "contentClass": "ESBD_Contract_DS_LEGAL_COSTS",
+              "title": "title_DS_LEGAL_COSTS",
+              "description": "classesDescription_DS_LEGAL_COSTS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0500-C25C-9DCF-6DA9E6275ACE}"
+            },
+            {
+              "className": "className28",
+              "contentClass": "ESBD_Contract_DS_TITLE",
+              "title": "title_DS_TITLE",
+              "description": "classesDescription_DS_TITLE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0000-C1AD-809D-BF0C5F0A6F3C}"
+            },
+            {
+              "className": "className29",
+              "contentClass": "ESBD_Contract_DS_LOSSES",
+              "title": "title_DS_LOSSES",
+              "description": "classesDescription_DS_LOSSES",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0100-C196-99FC-D771C9942C7B}"
+            },
+            {
+              "className": "className30",
+              "contentClass": "ESBD_Contract_DS_RAILWAYS",
+              "title": "title_DS_RAILWAYS",
+              "description": "classesDescription_DS_RAILWAYS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0700-C892-A820-FA71E14BBE01}"
+            }
+          ]
+        },
+        "modify": {
+          "toolbarDef": "ESBDPlugin_ContractPaneMenuType",
+          "classes": [
+            {
+              "className": "className01",
+              "contentClass": "ESBD_InsuranceContract",
+              "title": "titleInsuranceContract",
+              "description": "classesDescriptionInsuranceContract",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0600-C4BB-8B49-8BEBD1D89155}",
+              "toolbarDef": "ESBDPlugin_ContractWithPolicePaneMenuType"
+            },
+            {
+              "className": "className02",
+              "contentClass": "ESBD_InsuranceContract_OS_RNS",
+              "title": "titleInsuranceContract_OS_RNS",
+              "description": "classesDescriptionInsuranceContract_OS_RNS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50ABAE5B-0000-CB17-B31E-74822AB5C68B}"
+            },
+            {
+              "className": "className03",
+              "contentClass": "ESBD_Contract_OSGPO_PASSENGERS",
+              "title": "title_OSGPO_PASSENGERS",
+              "description": "classesDescription_OSGPO_PASSENGERS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0400-C9DA-B43B-1B37805951C7}"
+            },
+            {
+              "className": "className04",
+              "contentClass": "ESBD_Contract_OSGPO_TOUR",
+              "title": "title_OSGPO_TOUR",
+              "description": "classesDescription_OSGPO_TOUR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{30B07F5B-0100-CBF7-B7D9-2115C32E2EE6}"
+            },
+            {
+              "className": "className05",
+              "contentClass": "ESBD_Contract_OSGPO_NOTARIUS",
+              "title": "title_OSGPO_NOTARIUS",
+              "description": "classesDescription_OSGPO_NOTARIUS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0300-CAE5-8B4A-CC1CA946A7C5}"
+            },
+            {
+              "className": "className06",
+              "contentClass": "ESBD_Contract_OSGPO_AUDITORS",
+              "title": "title_OSGPO_AUDITORS",
+              "description": "classesDescription_OSGPO_AUDITORS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{D0C2AE5B-0000-C61E-A5B1-91E58A80C250}"
+            },
+            {
+              "className": "className07",
+              "contentClass": "ESBD_Contract_OS_ECO",
+              "title": "title_OS_ECO",
+              "description": "classesDescription_OS_ECO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40B07F5B-0100-C7F2-BEFD-D316DBB29ABE}"
+            },
+            {
+              "className": "className08",
+              "contentClass": "ESBD_Contract_AGRICULTURE",
+              "title": "title_AGRICULTURE",
+              "description": "classesDescription_AGRICULTURE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0200-CA2E-8FF7-7BBD5B667637}"
+            },
+            {
+              "className": "className09",
+              "contentClass": "ESBD_Contract_OSGPO_DO",
+              "title": "title_OSGPO_DO",
+              "description": "classesDescription_OSGPO_DO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0500-C5CF-99DE-852150E7D647}"
+            },
+            {
+              "className": "className10",
+              "contentClass": "ESBD_Contract_DS_AUTO",
+              "title": "title_DS_AUTO",
+              "description": "classesDescription_DS_AUTO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0400-CEF0-9265-F5C27BB07880}"
+            },
+            {
+              "className": "className11",
+              "contentClass": "ESBD_Contract_DS_ANNUITY",
+              "title": "title_DS_ANNUITY",
+              "description": "classesDescription_DS_ANNUITY",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0100-CBFC-A31B-27DBB4A44C93}"
+            },
+            {
+              "className": "className12",
+              "contentClass": "ESBD_Contract_DS_WATER",
+              "title": "title_DS_WATER",
+              "description": "classesDescription_DS_WATER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0200-C5EF-93F5-2939E4FA0DE9}"
+            },
+            {
+              "className": "className13",
+              "contentClass": "ESBD_Contract_DS_AIR",
+              "title": "title_DS_AIR",
+              "description": "classesDescription_DS_AIR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{C0D1A95C-0000-C017-8F9A-0069207C56BF}"
+            },
+            {
+              "className": "className14",
+              "contentClass": "ESBD_Contract_DS_GUARANTEE",
+              "title": "title_DS_GUARANTEE",
+              "description": "classesDescription_DS_GUARANTEE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70D5A95C-0000-C51F-B9CD-B039D70D11A4}"
+            },
+            {
+              "className": "className15",
+              "contentClass": "ESBD_Contract_DS_GPO_AUTO",
+              "title": "title_DS_GPO_AUTO",
+              "description": "classesDescription_DS_GPO_AUTO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{50B07F5B-0300-C618-8CC1-1DE3ECBF436F}"
+            },
+            {
+              "className": "className16",
+              "contentClass": "ESBD_Contract_DS_GPO_WATER",
+              "title": "title_DS_GPO_WATER",
+              "description": "classesDescription_DS_GPO_WATER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0300-CAD3-B65D-75928B24D373}"
+            },
+            {
+              "className": "className17",
+              "contentClass": "ESBD_Contract_DS_GPO_AIR",
+              "title": "title_DS_GPO_AIR",
+              "description": "classesDescription_DS_GPO_AIR",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{C0D1A95C-0000-C017-8F9A-0069207C56BF}"
+            },
+            {
+              "className": "className18",
+              "contentClass": "ESBD_Contract_DS_GPO_OTHER",
+              "title": "title_DS_GPO_OTHER",
+              "description": "classesDescription_DS_GPO_OTHER",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0000-C017-80F7-184AC4E6B6D2}"
+            },
+            {
+              "className": "className19",
+              "contentClass": "ESBD_Contract_DS_CARGO",
+              "title": "title_DS_CARGO",
+              "description": "classesDescription_DS_CARGO",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0600-C8AC-B6AA-BCA9778DCD7D}"
+            },
+            {
+              "className": "className20",
+              "contentClass": "ESBD_Contract_DS_LOAN",
+              "title": "title_DS_LOAN",
+              "description": "classesDescription_DS_LOAN",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0000-C1A6-A536-3EB6C5E973A9}"
+            },
+            {
+              "className": "className21",
+              "contentClass": "ESBD_Contract_DS_PROPERTY",
+              "title": "title_DS_PROPERTY",
+              "description": "classesDescription_DS_PROPERTY",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0100-C498-99DF-BED97C5E369B}"
+            },
+            {
+              "className": "className22",
+              "contentClass": "ESBD_Contract_DS_MORTGAGE",
+              "title": "title_DS_MORTGAGE",
+              "description": "classesDescription_DS_MORTGAG",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0100-C502-A750-67B90A2255CC}"
+            },
+            {
+              "className": "className23",
+              "contentClass": "ESBD_Contract_DS_HEALTH",
+              "title": "title_DS_HEALTH",
+              "description": "classesDescription_DS_HEALTH",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0200-CD8E-B62C-2E744271AAEC}"
+            },
+            {
+              "className": "className24",
+              "contentClass": "ESBD_Contract_DS_ACCIDENT",
+              "title": "title_DS_ACCIDENT",
+              "description": "classesDescription_DS_ACCIDENT",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0600-C64F-B85C-F36286AA66EA}"
+            },
+            {
+              "className": "className25",
+              "contentClass": "ESBD_Contract_DS_OTHER_LOSSES",
+              "title": "title_DS_OTHER_LOSSES",
+              "description": "classesDescription_DS_OTHER_LOSSES",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0300-CD7C-9CFB-3EB8A69FAC5F}"
+            },
+            {
+              "className": "className26",
+              "contentClass": "ESBD_Contract_DS_LIFE",
+              "title": "title_DS_LIFE",
+              "description": "classesDescription_DS_LIFE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0500-C25C-9DCF-6DA9E6275ACE}"
+            },
+            {
+              "className": "className27",
+              "contentClass": "ESBD_Contract_DS_LEGAL_COSTS",
+              "title": "title_DS_LEGAL_COSTS",
+              "description": "classesDescription_DS_LEGAL_COSTS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70B07F5B-0800-CA2C-9192-94ABC74CEB80}"
+            },
+            {
+              "className": "className28",
+              "contentClass": "ESBD_Contract_DS_TITLE",
+              "title": "title_DS_TITLE",
+              "description": "classesDescription_DS_TITLE",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0000-C1AD-809D-BF0C5F0A6F3C}"
+            },
+            {
+              "className": "className29",
+              "contentClass": "ESBD_Contract_DS_LOSSES",
+              "title": "title_DS_LOSSES",
+              "description": "classesDescription_DS_LOSSES",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0100-C196-99FC-D771C9942C7B}"
+            },
+            {
+              "className": "className30",
+              "contentClass": "ESBD_Contract_DS_RAILWAYS",
+              "title": "title_DS_RAILWAYS",
+              "description": "classesDescription_DS_RAILWAYS",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60B07F5B-0700-C892-A820-FA71E14BBE01}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "titleInsuranceCasesPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Страховые случаи",
+          "toolbarDef": "ComponentsPlugin_DocumentListMenuType",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "classNameInsuranceEventCIDV",
+              "contentClass": "ESBD_InsuranceEventCIDV",
+              "title": "titleInsuranceEventCIDV",
+              "description": "descriptionInsuranceEventCIDV",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0600-CF46-AF8F-FC0B60C4F6BC}"
+            },
+            {
+              "className": "classNameInsuranceEventEmpAcc",
+              "contentClass": "ESBD_InsuranceEventEmpAcc",
+              "title": "titleInsuranceEventEmpAcc",
+              "description": "descriptionInsuranceEventEmpAcc",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{90B07F5B-0400-C2D8-BE11-1ACB10255325}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDCaseMenuType",
+          "classes": [
+            {
+              "className": "classNameInsuranceEventCIDV",
+              "contentClass": "ESBD_InsuranceEventCIDV",
+              "title": "titleInsuranceEventCIDV",
+              "description": "descriptionInsuranceEventCIDV",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0600-CF46-AF8F-FC0B60C4F6BC}"
+            },
+            {
+              "className": "classNameInsuranceEventEmpAcc",
+              "contentClass": "ESBD_InsuranceEventEmpAcc",
+              "title": "titleInsuranceEventEmpAcc",
+              "description": "descriptionInsuranceEventEmpAcc",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{90B07F5B-0400-C2D8-BE11-1ACB10255325}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "titleClientsPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Клиенты",
+          "toolbarDef": "ComponentsPlugin_DocumentListMenuType",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "classNamePerson",
+              "contentClass": "ESBD_Person",
+              "title": "titlePerson",
+              "description": "descriptionPerson",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10B07F5B-0200-C008-8992-9A9EAD59C1DC}"
+            },
+            {
+              "className": "classNameEntity",
+              "contentClass": "ESBD_Entity",
+              "title": "titleEntity",
+              "description": "descriptionEntity",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10B07F5B-0200-C0F9-9C04-3BCED6416604}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "classNamePerson",
+              "contentClass": "ESBD_Person",
+              "title": "titlePerson",
+              "description": "descriptionPerson",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10B07F5B-0200-C008-8992-9A9EAD59C1DC}"
+            },
+            {
+              "className": "classNameEntity",
+              "contentClass": "ESBD_Entity",
+              "title": "titleEntity",
+              "description": "descriptionEntity",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10B07F5B-0200-C0F9-9C04-3BCED6416604}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "titleVehiclesPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Транспортные средства/Все ТС",
+          "toolbarDef": "ComponentsPlugin_DocumentListMenuType",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "classNameVehicle",
+              "contentClass": "ESBD_Vehicle",
+              "title": "titleVehicle",
+              "description": "descriptionVehicle",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40E5B35B-0000-C718-B04B-F47168FDAC17}"
+            },
+            {
+              "className": "classNameWaterTransport",
+              "contentClass": "ESBD_WaterTransport",
+              "title": "titleWaterTransport",
+              "description": "descriptionWaterTransport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{2056C75B-0000-C910-A0BA-3BEEC821A6F6}"
+            },
+            {
+              "className": "classNameAirTransport",
+              "contentClass": "ESBD_AirTransport",
+              "title": "titleAirTransport",
+              "description": "descriptionAirTransport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{B060C75B-0000-CA1F-A52B-C4019831B3B5}"
+            },
+            {
+              "className": "classNameRailwayTransport",
+              "contentClass": "ESBD_RailwayTransport",
+              "title": "titleRailwayTransport",
+              "description": "descriptionRailwayTransport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{8093B35B-0000-C31A-9D8E-C66FE409D1F8}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "classNameVehicle",
+              "contentClass": "ESBD_Vehicle",
+              "title": "titleVehicle",
+              "description": "descriptionVehicle",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40E5B35B-0000-C718-B04B-F47168FDAC17}"
+            },
+            {
+              "className": "classNameWaterTransport",
+              "contentClass": "ESBD_WaterTransport",
+              "title": "titleWaterTransport",
+              "description": "descriptionWaterTransport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{2056C75B-0000-C910-A0BA-3BEEC821A6F6}"
+            },
+            {
+              "className": "classNameAirTransport",
+              "contentClass": "ESBD_AirTransport",
+              "title": "titleAirTransport",
+              "description": "descriptionAirTransport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{B060C75B-0000-CA1F-A52B-C4019831B3B5}"
+            },
+            {
+              "className": "classNameRailwayTransport",
+              "contentClass": "ESBD_RailwayTransport",
+              "title": "titleRailwayTransport",
+              "description": "descriptionRailwayTransport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{8093B35B-0000-C31A-9D8E-C66FE409D1F8}"
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "title": "titleReportsPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Сохраненный отчет",
+          "toolbarDef": "ComponentsPlugin_ReportMenuType",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "classNameStoredReportExtend",
+              "contentClass": "ESBD_StoredReportExtend",
+              "title": "titleStoredReportExtend",
+              "description": "descriptionStoredReportExtend",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0200-CA86-B4DD-D89B98D45F9E}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "classNameStoredReport",
+              "contentClass": "ESBD_StoredReport",
+              "title": "titleStoredReport",
+              "description": "descriptionStoredReport",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{807F3C5B-0000-C01B-A8BD-B33B2E95B0F8}"
+            },
+            {
+              "className": "classNameStoredReportExtend",
+              "contentClass": "ESBD_StoredReportExtend",
+              "title": "titleStoredReportExtend",
+              "description": "descriptionStoredReportExtend",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0200-CA86-B4DD-D89B98D45F9E}"
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "title": "titleRequestsPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Заявление для ГКБ",
+          "toolbarDef": "ComponentsPlugin_ApplicationMenuMenuType",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className":"classNameAppEditClass",
+              "contentClass":"ESBD_AppEditClass",
+              "title":"titleAppEditClass",
+              "description":"descriptionAppEditClass",
+              "entryTemplate":"EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0500-C75D-AAF5-275D830B9F54}"
+            },
+            {
+              "className":"classNameAppEditEntity",
+              "contentClass":"ESBD_AppEditEntity",
+              "title":"titleAppEditEntity",
+              "description":"descriptionAppEditEntity",
+              "entryTemplate":"EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{D0E3AE5B-0500-C31C-A3E5-51CE5A5656A7}"
+            },
+            {
+              "className": "classNameAppIncorrectPIN",
+              "contentClass": "ESBD_AppIncorrectPIN",
+              "title": "titleStoredAppIncorrectPIN",
+              "description": "descriptionAppIncorrectPIN",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0400-C86A-812D-38C6B5C25E7B}"
+            },
+            {
+              "className": "classNameAppToAddDirectory",
+              "contentClass": "ESBD_AppToAddDirectory",
+              "title": "titleAppToAddDirectory",
+              "description": "descriptionAppToAddDirectory",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0300-C77F-AEB9-37C5F6876B09}"
+            },
+            {
+              "className": "classNameAppEditTerminatedContract",
+              "contentClass": "ESBD_AppEditTerminatedContract",
+              "title": "titleAppEditTerminatedContract",
+              "description": "descriptionAppEditTerminatedContract",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60F1AE5B-0000-C01F-8034-2EF8CF2604BE}"
+            }         ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDApplicationMenuType",
+          "classes": [
+            {
+              "className":"classNameAppEditClass",
+              "contentClass":"ESBD_AppEditClass",
+              "title":"titleAppEditClass",
+              "description":"descriptionAppEditClass",
+              "entryTemplate":"EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0500-C75D-AAF5-275D830B9F54}"
+            },
+            {
+              "className":"classNameAppEditEntity",
+              "contentClass":"ESBD_AppEditEntity",
+              "title":"titleAppEditEntity",
+              "description":"descriptionAppEditEntity",
+              "entryTemplate":"EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{D0E3AE5B-0500-C31C-A3E5-51CE5A5656A7}"
+            },
+            {
+              "className": "classNameAppIncorrectPIN",
+              "contentClass": "ESBD_AppIncorrectPIN",
+              "title": "titleStoredAppIncorrectPIN",
+              "description": "descriptionAppIncorrectPIN",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0400-C86A-812D-38C6B5C25E7B}"
+            },
+            {
+              "className": "classNameAppToAddDirectory",
+              "contentClass": "ESBD_AppToAddDirectory",
+              "title": "titleAppToAddDirectory",
+              "description": "descriptionAppToAddDirectory",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{80B07F5B-0300-C77F-AEB9-37C5F6876B09}"
+            },
+            {
+              "className": "classNameAppEditTerminatedContract",
+              "contentClass": "ESBD_AppEditTerminatedContract",
+              "title": "titleAppEditTerminatedContract",
+              "description": "descriptionAppEditTerminatedContract",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{60F1AE5B-0000-C01F-8034-2EF8CF2604BE}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "titleBackgroundInformationPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Справочная информация",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "classNameReferenceInformation",
+              "contentClass": "ESBD_ReferenceInformation",
+              "title": "titleReferenceInformation",
+              "description": "descriptionReferenceInformation",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{6015F25B-0000-C81A-8A5A-9F07E1539D41}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "classNameReferenceInformation",
+              "contentClass": "ESBD_ReferenceInformation",
+              "title": "titleReferenceInformation",
+              "description": "descriptionReferenceInformation",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{6015F25B-0000-C81A-8A5A-9F07E1539D41}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "titleRuleControlPage",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Управление БП",
+          "myToolbarDef": {}
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "classESBD_ErrorContentCard",
+              "contentClass": "ESBD_ErrorContentCard",
+              "title": "titleESBD_ErrorContentCard",
+              "description": "descriptionESBD_ErrorContentCard",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{C067EC5B-0000-C919-9481-09C27BE7EE01}"
+            },
+            {
+              "className": "classNameRuleTable",
+              "contentClass": "ESBD_RuleTable",
+              "title": "titleRuleTable",
+              "description": "descriptionRuleTable",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{90C2F65B-0000-CC1E-918D-8819FAA261D1}"
+            },
+            {
+              "className": "classNameStandardRule",
+              "contentClass": "ESBD_StandardRule",
+              "title": "titleStandardRule",
+              "description": "descriptionStandardRule",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40DDC85B-0000-C210-BC2C-ED853F54B914}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "classESBD_ErrorContentCard",
+              "contentClass": "ESBD_ErrorContentCard",
+              "title": "titleESBD_ErrorContentCard",
+              "description": "descriptionESBD_ErrorContentCard",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{B05AF05B-0000-CC17-87B9-0A4AAD4986C4}"
+            },
+            {
+              "className": "classNameRuleTable",
+              "contentClass": "ESBD_RuleTable",
+              "title": "titleRuleTable",
+              "description": "descriptionRuleTable",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{90C2F65B-0000-CC1E-918D-8819FAA261D1}"
+            },
+            {
+              "className": "classNameStandardRule",
+              "contentClass": "ESBD_StandardRule",
+              "title": "titleStandardRule",
+              "description": "descriptionStandardRule",
+              "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{40DDC85B-0000-C210-BC2C-ED853F54B914}"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "ESBDCancelDocumentAction",
+      "title": "Досрочное расторжение",
+      "description": "Укажите дату и причину досрочного расторжения",
+      "contentClass": "ESBD_CancelDocumentAction",
+      "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10B07F5B-0400-C6DD-85C5-9B576F46DCFE}"
+    },
+    {
+      "id": "ESBDCancelDueDuplicateDocumentAction",
+      "title": "Дубликат",
+      "description": "Укажите дату и и новый номер страхового полиса",
+      "contentClass": "ESBD_CancelDueDuplicateDocumentAction",
+      "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10B07F5B-0500-CBC9-A587-C19AA4229DDF}"
+    },
+    {
+      "id": "ESBDCancelDueErrorDocumentAction",
+      "title": "Ошибка оператора",
+      "description": "Укажите дату и причину расторжения",
+      "contentClass": "ESBD_CancelDueErrorDocumentAction",
+      "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{70F8AE5B-0000-C119-9AD0-FFA5587EC408}"
+    },
+    {
+      "id": "ESBDCancelAndCreateDocumentAction",
+      "title": "С последующим оформлением",
+      "description": "Укажите дату и причину расторжения",
+      "contentClass": "ESBDCancelAndCreateDocumentAction",
+      "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{10FAAE5B-0000-C114-9AB7-924771291C7B}"
+    },
+    {
+      "id": "ESBDCancelCaseAction",
+      "title": "Расторжение страхового случаи",
+      "description": "Укажите дату и причину расторжения страхового случаи",
+      "contentClass": "ESBD_CancelCaseAction",
+      "entryTemplate": "EntryTemplate,{BC31079C-6FFD-4904-941E-3FF43EE187BD},{20B07F5B-0000-C62F-868E-1CF97B4B2FFB}"
+    }
+  ]
+}

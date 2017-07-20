@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: 1.8.0_91-b15 (Oracle Corporation)
+Class-Path: log4j-1.2.17.jar acmapi.jar acmrest.jar ASN1P.jar asn1rt.jar bootstrap.jar commons-logging-1.1.1.jar Jace.jar pe.jar stax-api.jar xlxpScanner.jar xlxpScannerUtils.jar xmlsec-1.5.8.jar JSON4J_Apache.jar
+Main-Class: kz.exe.StartCases

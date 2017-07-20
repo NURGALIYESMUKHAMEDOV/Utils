@@ -1,0 +1,113 @@
+<div>
+
+    <table class="propertyTable">
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="${id}-ITN">Номер ИИН</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-IIN', required: false"
+                        data-dojo-attach-point="IIN"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="${id}-lastName">Фамилия</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-lastName', required: false"
+                        data-dojo-attach-point="lastName"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="${id}-firstName">Имя</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-firstName', required: false"
+                        data-dojo-attach-point="firstName"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="${id}-birthday">Дата рождения</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue" colspan="3">
+
+                <input
+                        data-dojo-props="id: '${id}-birthday', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                        data-dojo-attach-point="birthday"
+                        data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="5">
+
+                <div data-dojo-type="dijit/layout/ContentPane">
+
+                    <button
+                            data-dojo-attach-point="searchButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: _onSearch">Поиск</button>
+
+                    <button
+                            data-dojo-attach-point="resetButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: onReset">Сбросить</button>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

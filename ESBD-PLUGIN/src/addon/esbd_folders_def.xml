@@ -1,0 +1,463 @@
+<ExportedObjects EMVersion="5.121.0.234">
+    <Folders>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Договора</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Договора</Name>
+                <Id>847f33b0-c09d-4386-85e9-ff1ed51bd685</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>0f1e2d3c-4b5a-6978-8796-a5b4c3d2e1f0</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+                
+                <ExternalReplicaIdentities/>
+                
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Договора страхования</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+                
+                <EntryTemplateId/>
+                
+                <Name>Договора страхования</Name>
+                <Id>c3fe0c10-c4e1-4cee-8499-c46c65e8609d</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>847f33b0-c09d-4386-85e9-ff1ed51bd685</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Клиенты</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Клиенты</Name>
+                <Id>29bd6202-b37c-4885-82c3-05d6932b11c9</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>0f1e2d3c-4b5a-6978-8796-a5b4c3d2e1f0</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Юридические лица</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Юридические лица</Name>
+                <Id>77babce8-8043-4d1a-8fba-fa3ac1355234</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>29bd6202-b37c-4885-82c3-05d6932b11c9</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Физические лица</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Физические лица</Name>
+                <Id>4a87a524-f102-4134-8f5c-cb7cc3d6519d</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>29bd6202-b37c-4885-82c3-05d6932b11c9</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Конфигурация</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Конфигурация</Name>
+                <Id>d7ca51cc-aeaf-429f-888b-4005c35fb104</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>0f1e2d3c-4b5a-6978-8796-a5b4c3d2e1f0</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Редакторы</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Редакторы</Name>
+                <Id>86b0a283-2d8e-44fb-8a76-a7c5f2737261</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>d7ca51cc-aeaf-429f-888b-4005c35fb104</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Поиск</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Поиск</Name>
+                <Id>1838d63d-1593-4410-883d-35f646f35612</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>d7ca51cc-aeaf-429f-888b-4005c35fb104</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Физические лица</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Физические лица</Name>
+                <Id>d034b052-0000-ca12-a164-7df7ec6cd551</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>1838d63d-1593-4410-883d-35f646f35612</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Транспортные средства</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Транспортные средства</Name>
+                <Id>b034b052-0000-c813-82d3-174267ae1804</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>1838d63d-1593-4410-883d-35f646f35612</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Юридические лица</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Юридические лица</Name>
+                <Id>f034b052-0000-c211-8258-a00d9738a915</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>1838d63d-1593-4410-883d-35f646f35612</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Страховые случаи</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Страховые случаи</Name>
+                <Id>7034b052-0000-cd1c-84ae-065d80bb7ff4</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>1838d63d-1593-4410-883d-35f646f35612</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Страховые договора</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Страховые договора</Name>
+                <Id>5034b052-0000-c81f-aeae-030eac79bbc9</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>1838d63d-1593-4410-883d-35f646f35612</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+
+                <ExternalReplicaIdentities/>
+
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Формы</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+
+                <EntryTemplateId/>
+
+                <Name>Формы</Name>
+                <Id>a11b1452-e0ad-473f-8bda-e0ddf17bf35f</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>d7ca51cc-aeaf-429f-888b-4005c35fb104</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+                
+                <ExternalReplicaIdentities/>
+                
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Страховые компании</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+                
+                <EntryTemplateId/>
+                
+                <Name>Страховые компании</Name>
+                <Id>eb9cfa57-409e-4943-8b53-2072e432afdf</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>0f1e2d3c-4b5a-6978-8796-a5b4c3d2e1f0</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+                
+                <ExternalReplicaIdentities/>
+                
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Коэффициенты расчета страховой премии</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+                
+                <EntryTemplateId/>
+                
+                <Name>Коэффициенты расчета страховой премии</Name>
+                <Id>7ac7ea86-24f2-4b1d-8be0-4f166451f910</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>0f1e2d3c-4b5a-6978-8796-a5b4c3d2e1f0</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+        <Folder>
+            <FolderProperties>
+                <ObjectType>2</ObjectType>
+                
+                <ExternalReplicaIdentities/>
+                
+                <SecurityPolicy/>
+                <ReplicationGroup/>
+                <EntryTemplateObjectStoreName/>
+                <FolderName>Транспортные средства</FolderName>
+                <IsHiddenContainer>0</IsHiddenContainer>
+                <ContainerType/>
+                <CmRetentionDate/>
+                
+                <EntryTemplateId/>
+                
+                <Name>Транспортные средства</Name>
+                <Id>7f5f5c0f-daa6-4aca-8a5e-80c8848b7c38</Id>
+                <InheritParentPermissions>1</InheritParentPermissions>
+                <Parent>
+                    <ObjectRef>
+                        <ObjectId>0f1e2d3c-4b5a-6978-8796-a5b4c3d2e1f0</ObjectId>
+                        <ClassId>01a3a8ca-7aec-11d1-a31b-0020af9fbb1c</ClassId>
+                    </ObjectRef>
+                </Parent>
+            </FolderProperties>
+        </Folder>
+    </Folders>
+</ExportedObjects>

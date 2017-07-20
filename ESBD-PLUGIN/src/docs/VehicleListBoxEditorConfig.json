@@ -1,0 +1,6 @@
+{
+  "contentClass": "ESBD_Vehicle",
+  "viewEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{B0CB4452-0000-C713-9A0A-752D0CF6679F}",
+  "addEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{D0BB6852-0000-CE1D-84CA-64F0B88F36A8}",
+  "searchTemplatesPath": "/Конфигурация/Поиск/Транспортные средства"
+}

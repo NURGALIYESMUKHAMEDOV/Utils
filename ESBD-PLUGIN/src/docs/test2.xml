@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<storedsearch xmlns="http://filenet.com/namespaces/wcm/apps/1.0">
+    <version dtd="3.0" searchobject="3"/>
+    <product name="Navigator" version="2.0.3"/>
+    <searchspec versionselection="none">
+        <searchtype>
+            <template showandorconditions="true" showmaxrecords="false" showoperators="true"/>
+        </searchtype>
+        <objectstores mergeoption="union">
+            <objectstore id="{30824F13-AF52-4F7E-91E4-37737821BB1E}" name="ASDO" repositoryId="ASDO"/>
+        </objectstores>
+        <searchcriteria>
+            <folders>
+                <folder id="{5BA00947-9C8D-40B9-8A12-EB796C0F34B4}" itemid="1"
+                        pathname="\&#1055;&#1072;&#1082;&#1077;&#1090;&#1099; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1086;&#1074;"
+                        searchsubfolders="true" view="editable">
+                    <objectstore id="ASDO"/>
+                </folder>
+            </folders>
+            <searchclauses>
+                <searchclause join="and">
+                    <select>
+                        <selectprops>
+                            <selectprop alignment="left" itemid="2" name="ASDO_BundleNumber" objecttype="document"
+                                        sortlevel="0" sortorder="none" symname="ASDO_BundleNumber"/>
+                            <selectprop alignment="left" itemid="3" name="ASDO_Balance" objecttype="document"
+                                        sortlevel="0" sortorder="none" symname="ASDO_Balance"/>
+                            <selectprop alignment="left" itemid="4" name="ASDO_BundleStatus" objecttype="document"
+                                        sortlevel="0" sortorder="none" symname="ASDO_BundleStatus"/>
+                            <selectprop alignment="left" itemid="5" name="LastModifier" objecttype="document"
+                                        sortlevel="0" sortorder="none" symname="LastModifier"/>
+                            <selectprop alignment="left" itemid="6" name="DateLastModified" objecttype="document"
+                                        sortlevel="0" sortorder="none" symname="DateLastModified"/>
+                        </selectprops>
+                    </select>
+                    <from>
+                        <class symname="document"/>
+                    </from>
+                    <where>
+                        <and>
+                            <eq>
+                                <whereprop editproperty="editable" itemid="7" name="ASDO_BundleNumber"
+                                           objecttype="document" symname="ASDO_BundleNumber">
+                                    <propdesc datatype="typelong" haschoices="false" hasmarkings="false"
+                                              symname="ASDO_BundleNumber"/>
+                                </whereprop>
+                                <literal><![CDATA[]]></literal>
+                            </eq>
+                            <and>
+                                <like>
+                                    <whereprop editproperty="editable" itemid="8" name="ASDO_Balance"
+                                               objecttype="document" symname="ASDO_Balance">
+                                        <propdesc datatype="typestring" haschoices="false" hasmarkings="false"
+                                                  symname="ASDO_Balance"/>
+                                    </whereprop>
+                                    <literal><![CDATA[]]></literal>
+                                </like>
+                                <and>
+                                    <eq>
+                                        <whereprop editproperty="editable" itemid="9" name="ASDO_BundleStatus"
+                                                   objecttype="document" symname="ASDO_BundleStatus">
+                                            <propdesc datatype="typelong" haschoices="false" hasmarkings="false"
+                                                      symname="ASDO_BundleStatus"/>
+                                        </whereprop>
+                                        <literal><![CDATA[0]]></literal>
+                                    </eq>
+                                    <eq>
+                                        <whereprop editproperty="editable" itemid="10" name="ASDO_BundleStatus"
+                                                   objecttype="document" symname="ASDO_BundleStatus">
+                                            <propdesc datatype="typelong" haschoices="false" hasmarkings="false"
+                                                      symname="ASDO_BundleStatus"/>
+                                        </whereprop>
+                                        <literal><![CDATA[2]]></literal>
+                                    </eq>
+                                </and>
+                            </and>
+                        </and>
+                    </where>
+                    <subclasses>
+                        <subclass editproperty="editable" itemid="11" symname="ASDO_Bundle"
+                                  name="&#1055;&#1072;&#1082;&#1077;&#1090; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1086;&#1074;"
+                                  objecttype="document" includesubclasses="false"/>
+                    </subclasses>
+                </searchclause>
+            </searchclauses>
+        </searchcriteria>
+    </searchspec>
+</storedsearch>

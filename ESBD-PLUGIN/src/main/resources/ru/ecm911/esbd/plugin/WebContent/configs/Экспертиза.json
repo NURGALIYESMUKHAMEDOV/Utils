@@ -1,0 +1,34 @@
+[
+  {
+    "className": "ESBD_DamageAssessment",
+    "displayName": "Оценка ущерба",
+    "config": {
+      "preview": {
+        "title": "Экспертиза",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{20D93353-0000-CD1F-A10C-33388B10E48A}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Оценка ущерба",
+            "contentClass": "ESBD_DamageAssessment",
+            "title": "Добавить оценку ущерба",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{20D93353-0000-CD1F-A10C-33388B10E48A}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Оценка ущерба",
+            "contentClass": "ESBD_DamageAssessment",
+            "title": "Оценка ущерба",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{20D93353-0000-CD1F-A10C-33388B10E48A}"
+          }
+        ]
+      }
+    }
+  }
+]

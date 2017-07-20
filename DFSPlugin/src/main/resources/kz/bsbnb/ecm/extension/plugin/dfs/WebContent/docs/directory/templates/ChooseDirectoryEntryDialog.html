@@ -1,0 +1,85 @@
+<div data-dojo-type="dijit/layout/BorderContainer" gutters="false">
+
+    <div data-dojo-type="dijit/layout/ContentPane" region="top" style="padding:0;">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label for="directoryEntryCode">Индекс</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue" colspan="3">
+
+                    <input
+                            style="width: 5em;"
+                            data-dojo-props="id: 'directoryEntryCode', required: false"
+                            data-dojo-attach-point="directoryEntryCode"
+                            data-dojo-type="ecm/widget/ValidationTextBox"/>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label for="directoryEntryName">Наименование</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue" colspan="3">
+
+                    <input
+                            style="width: 20em;"
+                            data-dojo-props="id: 'directoryEntryName', required: false"
+                            data-dojo-attach-point="directoryEntryName"
+                            data-dojo-type="ecm/widget/ValidationTextBox"/>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="3">
+
+                    <div data-dojo-type="dijit/layout/ContentPane">
+
+                        <button
+                                data-dojo-attach-point="searchButton"
+                                data-dojo-type="dijit.form.Button"
+                                data-dojo-attach-event="onClick: onSearchSubmit">Поиск
+                        </button>
+
+                        <button
+                                data-dojo-attach-point="resetButton"
+                                data-dojo-type="dijit.form.Button"
+                                data-dojo-attach-event="onClick: onSearchReset">Сбросить
+                        </button>
+
+                    </div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div data-dojo-type="dijit/layout/ContentPane" region="center" style="padding:0;">
+
+        <div data-dojo-type="docs/directory/DirectoryEntryList" data-dojo-attach-point="directoryEntryList"></div>
+
+    </div>
+
+</div>

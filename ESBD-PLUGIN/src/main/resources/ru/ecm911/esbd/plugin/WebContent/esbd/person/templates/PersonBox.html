@@ -1,0 +1,572 @@
+<div>
+
+    <div
+        data-dojo-type="ecm/widget/TitlePane"
+        data-dojo-props="title: 'Информация'">
+
+        <table cellpadding="2" cellspacing="0" border="0">
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-IIN">ИИН</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-IIN', required: false, style: {width: '12em'}, invalidMessage: 'Введите корректный ИИН, например: 680903402745'"
+                            data-dojo-attach-point="ESBD_IIN"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-ITN">РНН</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-ITN', required: false, style: {width: '12em'}, invalidMessage: 'Введите корректный РНН, например: 620200216215'"
+                            data-dojo-attach-point="ESBD_ITN"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-lastName">Фамилия</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-lastName', required: true, style: {width: '25em'}, missingMessage: 'Значение поля должно быть указано'"
+                            data-dojo-attach-point="ESBD_LastName"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-firstName">Имя</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-firstName', required: true, style: {width: '14em'}, missingMessage: 'Значение поля должно быть указано'"
+                            data-dojo-attach-point="ESBD_FirstName"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-middleName">Отчество</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-middleName', required: false, style: {width: '18em'}"
+                            data-dojo-attach-point="ESBD_MiddleName"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-birthday">Дата рождения</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-birthday', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy'}, style: {width: '120px'}, invalidMessage: 'Дата указана неверно'"
+                            data-dojo-attach-point="ESBD_Birthday"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/DatePicker" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-sex">Пол</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                        data-dojo-props="id: '${id}-sex', required: false"
+                        data-dojo-attach-point="ESBD_Sex"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/Select">
+
+                        <option value="0">Мужской</option>
+
+                        <option value="1">Женский</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-marital">Семейное положение</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                        data-dojo-props="id: '${id}-marital', required: false"
+                        data-dojo-attach-point="ESBD_MaritalStatus"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/Select">
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-profession">Род занятий</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                        data-dojo-props="id: '${id}-profession', required: false"
+                        data-dojo-attach-point="ESBD_Profession"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/Select">
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-education">Образование</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                        data-dojo-props="id: '${id}-education', required: false"
+                        data-dojo-attach-point="ESBD_Education"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/Select">
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-residency">Резидент</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                            data-dojo-props="id: '${id}-residency', required: false"
+                            data-dojo-attach-point="ESBD_KZResidency"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value="true">Резидент РК</option>
+
+                        <option value="false">Не резидент РК</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-residentCountry">Страна</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                            data-dojo-props="id: '${id}-residentCountry', required: false"
+                            data-dojo-attach-point="ESBD_ResidencyCountry"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value="Российская Федерация">Российская Федерация</option>
+
+                        <option value="Белоруссия">Белоруссия</option>
+
+                        <option value="Украина">Украина</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-address">Адрес</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <textarea
+                        data-dojo-props="id: '${id}-address', required: false, style: {width: '25em', height: '5em'}"
+                        data-dojo-attach-point="ESBD_Address"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationSimpleTextarea"></textarea>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-phone">Телефон</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-phone', required: false, style: {width: '10em'}"
+                            data-dojo-attach-point="ESBD_Phone"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-email">Электронная почта</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-email', required: false, style: {width: '20em'}, regExp:dojox.validate.regexp.emailAddress, invalidMessage: 'Укажите правильный электронный адрес'"
+                            data-dojo-attach-point="ESBD_Email"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-website">Вебсайт</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-website', required: false, style: {width: '20em'}"
+                            data-dojo-attach-point="ESBD_WebSite"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div
+        data-dojo-type="ecm/widget/TitlePane"
+        data-dojo-props="title: 'Удостоверяющий документ'">
+
+        <table cellpadding="2" cellspacing="0" border="0">
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-identityType">Удостоверящий документ</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                        data-dojo-props="id: '${id}-identityType', required: false"
+                        data-dojo-attach-point="ESBD_IdentityType"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/Select">
+
+                        <option value="Удостоверение личности">Удостоверение личности</option>
+
+                        <option value="Паспорт">Паспорт</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-identityNumber">Номер</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-identityNumber', required: false, style: {width: '12em'}"
+                            data-dojo-attach-point="ESBD_IdentityNumber"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-identityIssueDate">Дата выдачи</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-identityIssueDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                            data-dojo-attach-point="ESBD_IdentityIssueDate"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/DatePicker" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-identityIssuer">Кем выдан</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <textarea
+                            data-dojo-props="id: '${id}-identityIssuer', required: false, style: {width: '25em', height: '5em'}"
+                            data-dojo-attach-point="ESBD_IdentityIssuer"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationSimpleTextarea">
+                    </textarea>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-identityValidTo">Срок действия</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-identityValidTo', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                            data-dojo-attach-point="ESBD_IdentityValidTo"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/DatePicker" />
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div
+            data-dojo-type="ecm/widget/TitlePane"
+            data-dojo-props="title: 'Банковские реквизиты'">
+
+        <table cellpadding="2" cellspacing="0" border="0">
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-bank">Банк</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                        data-dojo-props="id: '${id}-bank', required: false, style: {width: '25em'}"
+                        data-dojo-attach-point="ESBD_Bank"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-account">Счет</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                        data-dojo-props="id: '${id}-account', required: false, style: {width: '12em'}"
+                        data-dojo-attach-point="ESBD_Account"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

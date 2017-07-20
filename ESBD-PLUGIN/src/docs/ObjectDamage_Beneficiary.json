@@ -1,0 +1,21 @@
+[
+  {
+    "contentClass": "ESBD_Person",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{100B2F53-0000-C71D-993F-794C9DBD8674}",
+    "viewTitle": "Выгодоприобретатель",
+    "viewIntroText" : "Укажите выгодоприобретателя",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}",
+    "addTitle": "Новый выгодоприобретатель",
+    "addIntroText" : "Укажите требуемые параметры для описания выгодоприобретателя"
+  },{
+    "contentClass": "ESBD_Entity",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Юридические лица",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{000A2F53-0000-C114-8235-59A89297FEC7}",
+    "viewTitle": "Выгодоприобретатель",
+    "viewIntroText" : "Укажите выгодоприобретателя",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{3026E752-0000-C81C-A23D-DED4BE68762D}",
+    "addTitle": "Новый выгодоприобретатель",
+    "addIntroText" : "Укажите требуемые параметры для описания выгодоприобретателя"
+  }
+]

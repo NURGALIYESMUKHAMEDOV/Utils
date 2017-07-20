@@ -1,22 +1,68 @@
-# Compiled class file
+# Compiled source #
+###################
+*.com
 *.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Log file
-*.log
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# BlueJ files
-*.ctxt
+.idea/*
+*.iml
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven #
+#########
+target
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Local modules #
+#####################
+/groovy
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+
+
+.idea/
+Utils.iml
+CaseOperation/src/test/
+CryptoProPlugin/src/test/
+DFS/src/main/java/
+DFS/src/test/
+DFSClient/src/main/resources/
+DFSClient/src/test/
+DFSPlugin/src/test/
+DmOperations/src/test/
+FileNetProcessTestFramework/src/main/resources/
+Notifications_DNDO/src/test/
+SEDStatistics/src/
+SLClient/src/main/webapp/
+SLClient/src/test/
+SLPlugin/src/test/
+Security Management/src/main/resources/
+Security Management/src/test/
+json/src/main/resources/
+json/src/test/
+libs/bootstrap.jar
+libs/client-download.jar
+libs/com.ibm.jaxws.thinclient_8.5.0.jar
+libs/com.ibm.ws.admin.client_8.5.0.jar
+libs/com.ibm.ws.security.crypto.jar
+libs/ibmorb.jar
+libs/javaapi.jar
+libs/listener.jar
+libs/log4j.jar
+libs/naming.jar
+libs/namingclient.jar
+libs/p8cjares.jar
+libs/pe3pt.jar
+libs/peResources.jar
+libs/ras.jar
+libs/wsexception.jar

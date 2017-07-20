@@ -1,0 +1,20 @@
+[
+  {
+    "name" : "ESBD_Contract",
+    "displayName" : "Договор страхования",
+    "states" : [
+      {
+        "name" : "archive",
+        "actions": ["openDocument", "saveDocument", "doSomething"],
+        "properties": [
+          {
+            "name" : "propertyName",
+            "displayName" : "Значение",
+            "visible" : false
+          }
+        ]
+      },
+    ],
+    "state" : ""
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "className": "ESBD_GuiltyPerson",
+    "displayName": "Виновник",
+    "config": {
+      "preview": {
+        "title": "Виновник",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{8017A553-0000-C618-9E49-47401B54C273}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Виновник",
+            "contentClass": "ESBD_GuiltyPerson",
+            "title": "Добавить виновника",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{8017A553-0000-C618-9E49-47401B54C273}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Виновник",
+            "contentClass": "ESBD_GuiltyPerson",
+            "title": "Виновник",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{8017A553-0000-C618-9E49-47401B54C273}"
+          }
+        ]
+      }
+    }
+  }
+]

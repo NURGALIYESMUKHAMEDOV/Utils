@@ -1,0 +1,402 @@
+<div>
+
+    <div
+        data-dojo-type="ecm/widget/TitlePane"
+        data-dojo-props="title: 'Информация'">
+
+        <table class="propertyTable">
+
+            <!--
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-entityType">Форма клиента</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                            data-dojo-props="id: '${id}-entityType', required: false"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value="Физическое лицо">Физическое лицо</option>
+
+                        <option value="Юридическое лицо">Юридическое лицо</option>
+
+                        <option value="ИП/КХ">ИП/КХ</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            -->
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-BIN">Номер БИН</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                            data-dojo-props="id: '${id}-BIN', required: true, style: {width: '120px'}, invalidMessage: 'Введите корректный БИН, например: 040240009285'"
+                            data-dojo-attach-point="ESBD_BIN"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-entityName">Наименование юр лица</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                            data-dojo-props="id: '${id}-entityName', required: true, style: {width: '250px'}, missingMessage: 'Значение поля обязательно к указанию', invalidMessage: 'Значение поля обязательно к указанию 2'"
+                            data-dojo-attach-point="ESBD_Name"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-head">Первый руководитель</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                            data-dojo-props="id: '${id}-head', required: false, style: {width: '250px'}"
+                            data-dojo-attach-point="ESBD_Head"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-accountant">Главный бухгалтер</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                            data-dojo-props="id: '${id}-accountant', required: false, style: {width: '250px'}"
+                            data-dojo-attach-point="ESBD_Accountant"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-industry">Сектор экономики</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                            data-dojo-props="id: '${id}-industry', required: false"
+                            data-dojo-attach-point="ESBD_Industry"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-businessType">Вид экономической деятельности</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                            data-dojo-props="id: '${id}-businessType', required: false"
+                            data-dojo-attach-point="ESBD_BusinessType"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-ebranch">Отрасль</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                            data-dojo-props="id: '${id}-ebranch', required: false"
+                            data-dojo-attach-point="ESBD_EconomicBranch"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-residency">Резидент</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                            data-dojo-props="id: '${id}-residency', required: false"
+                            data-dojo-attach-point="ESBD_KZResidency"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value="true">Резидент РК</option>
+
+                        <option value="false">Не резидент РК</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-residentCountry">Страна</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <select
+                            data-dojo-props="id: '${id}-residentCountry', required: false"
+                            data-dojo-attach-point="ESBD_ResidencyCountry"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value="Российская Федерация">Российская Федерация</option>
+
+                        <option value="Белоруссия">Белоруссия</option>
+
+                        <option value="Украина">Украина</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-address">Адрес</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                        <textarea
+                            data-dojo-props="id: '${id}-address', required: false, style: {width: '25em', height: '5em'}"
+                            data-dojo-attach-point="ESBD_Address"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationSimpleTextarea"></textarea>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-phone">Телефон</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-phone', required: false, style:{width: '10em'}"
+                        data-dojo-attach-point="ESBD_Phone"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-email">Электронная почта</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-email', required: false, regExp:dojox.validate.regexp.emailAddress, invalidMessage: 'Укажите правильный электронный адрес'"
+                        data-dojo-attach-point="ESBD_Email"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-website">Сайт</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-website', required: false"
+                        data-dojo-attach-point="ESBD_WebSite"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div
+            data-dojo-type="ecm/widget/TitlePane"
+            data-dojo-props="title: 'Банковские реквизиты'">
+
+        <table cellpadding="2" cellspacing="0" border="0">
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-bank">Банк</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-bank', required: false, style: {width: '25em'}"
+                            data-dojo-attach-point="ESBD_Bank"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-account">Счет</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-account', required: false, style: {width: '12em'}"
+                            data-dojo-attach-point="ESBD_Account"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

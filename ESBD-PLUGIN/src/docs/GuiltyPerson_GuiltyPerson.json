@@ -1,0 +1,12 @@
+[
+  {
+    "contentClass": "ESBD_Person",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{B06D4653-0000-C518-BF44-CCF555B72570}",
+    "viewTitle": "Виновник",
+    "viewIntroText" : "Для поиска виновника используете",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}",
+    "addTitle": "Виновник",
+    "addIntroText" : "Укажите параметры виновника"
+  }
+]

@@ -1,0 +1,194 @@
+<HTML>
+<HEAD>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <Style type="text/css">
+        object.hiddenObject{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+        border-style: none;
+        border-width: 0px;
+        max-width: 0px;
+        max-height: 0px;
+        }
+    </Style>
+
+    <Script>
+
+        CAPICOM_CURRENT_USER_STORE = 2;
+        CAPICOM_STORE_OPEN_READ_ONLY = 0;
+
+        function ObjCreator(name) {
+
+            switch (navigator.appName) {
+
+                case 'Microsoft Internet Explorer':
+
+                    return new ActiveXObject(name);
+
+                default:
+
+                    var userAgent = navigator.userAgent;
+
+                    if (userAgent.match(/Trident\/./i)) { // IE10, 11
+
+                        return new ActiveXObject(name);
+
+                    }
+
+                    var cadesobject = document.getElementById('cadesplugin');
+
+                    return cadesobject.CreateObject(name);
+
+            }
+
+        }
+
+        // инициализация объектов плагига КриптоПро
+
+        function initialize(){
+
+            if (console) {
+
+                console.log("Выполняется проверка загрузки плагина КриптоПро...");
+
+            }
+
+            var isPluginLoaded = false;
+
+            var isPluginEnabled = false;
+
+            var oStore = null;
+
+            var oSigner = null;
+
+            var oSignedData = null;
+
+            try {
+
+                var oAbout = ObjCreator("CAdESCOM.About");
+
+                isPluginLoaded = true;
+
+                isPluginEnabled = true;
+
+                if (console) {
+
+                    console.log("Плагин загружен. Версия " + ( oAbout.PluginVersion || oAbout.Version ));
+
+                }
+
+                try {
+
+                    oStore = ObjCreator("CAPICOM.store");
+
+                } catch (err) {
+
+                    // self.parentDialog.signInitError("Не удалось создать объект CAPICOM.store: " + (err.message || e));
+
+                    console.log("Не удалось создать объект CAPICOM.store. Ошибка: ", (err.message || e));
+
+                    return false ;
+
+                }
+
+                try {
+
+                   oSigner = ObjCreator("CAdESCOM.CPSigner");
+
+                } catch (err) {
+
+                   // self.parentDialog.signInitError("Не удалось создать объект CAdESCOM.CPSigner: " + (err.message || e));
+
+                   console.log("Не удалось создать объект CAdESCOM.CPSigner. Ошибка: ", (err.message || e));
+
+                   return false ;
+
+                }
+
+                try {
+
+                    oStore.Open(CAPICOM_CURRENT_USER_STORE, "My", CAPICOM_STORE_OPEN_READ_ONLY);
+
+                } catch (e) {
+
+                    // Utils.showError("Ошибка при открытии хранилища: " + (e.message || e));
+
+                    console.log("Ошибка открытия хранилища: ", (e.message || e));
+
+                    return false ;
+
+                }
+
+                try {
+
+                    oSignedData = ObjCreator("CAdESCOM.CadesSignedData");
+
+                } catch (err) {
+
+                    // self.parentDialog.signInitError("Не удалось создать объект CAdESCOM.CadesSignedData: " + (err.message || e));
+
+                    console.log("Не удалось создать объект CAdESCOM.CadesSignedData. Ошибка: ", (err.message || e));
+
+                    return false ;
+
+                }
+
+                if (oStore && oSigner && oSignedData) {
+
+                    return self.parentDialog.initialize(oStore, oSigner, oSignedData);
+
+                }
+
+
+            } catch (err) {
+
+                console.log(err);
+
+                // Объект создать не удалось, проверим, установлен ли
+                // вообще плагин. Такая возможность есть не во всех браузерах
+
+                var mimetype = navigator.mimeTypes["application/x-cades"];
+
+                if (mimetype) {
+
+                    isPluginLoaded = true;
+
+                    var plugin = mimetype.enabledPlugin;
+
+                    if (plugin) {
+
+                        isPluginEnabled = true;
+
+                    }
+
+                }
+
+                if(isPluginLoaded){
+
+                    self.parentDialog.signInitError("Плагин найден, но не активирован")
+
+                } else {
+
+                    self.parentDialog.signInitError("Плагин не установлен")
+
+                }
+
+            }
+
+            return false ;
+
+        }
+
+    </Script>
+</HEAD>
+<BODY >
+
+<object id="cadesplugin" type="application/x-cades" class="hiddenObject"></object>
+
+
+
+</BODY>
+</HTML>

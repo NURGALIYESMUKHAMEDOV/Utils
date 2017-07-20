@@ -1,0 +1,30 @@
+.esbdFeatureIcon {
+    width:24px;
+    height:24px;
+    background:url('../icons/featureIcon.png') center center no-repeat;
+}
+
+.esbdFeaturePane {
+    padding: 10px;
+}
+
+.esbdInsuranceList {
+    padding: 10px;
+}
+
+.esbdPersonList {
+    padding: 10px;
+}
+
+.esbdFullScreen {
+    width: 100%;
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}

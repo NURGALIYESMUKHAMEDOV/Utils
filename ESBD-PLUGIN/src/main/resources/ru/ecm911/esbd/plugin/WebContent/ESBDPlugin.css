@@ -1,0 +1,247 @@
+.esbdFeatureIcon {
+    width:24px;
+    height:24px;
+    background:url('icons/featureIcon.png') center center no-repeat;
+}
+
+.esbdAdminFeatureIcon {
+    width:24px;
+    height:24px;
+    background:url('icons/adminFeatureIcon.png') center center no-repeat;
+}
+
+.esbdFeaturePane {
+    padding: 10px;
+}
+
+.esbdInsuranceList {
+    padding: 10px;
+}
+
+.esbdPersonList {
+    padding: 10px;
+}
+
+.esbdFullScreen {
+    width: 100%;
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyReadOnly .pvrPropertyLabel {
+    color: gray;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyLabelWrapperHidden {
+	display: none;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyAsterisk {
+	display: none;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyRequired .pvrPropertyAsterisk {
+	display: inline-block;
+	color: #e87820;
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyHelp {
+	vertical-align: 2px;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyHelp .idxHoverHelp .idxButtonIcon .idxHelpIcon {
+    background-image: url("images/Help12.png") !important;
+    height: 12px;
+    width: 12px;
+    background-repeat: no-repeat;
+    margin-bottom: 4px;
+    background-position: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyHelp .idxHoverHelp .idxButtonIcon .dijitButtonNode,
+.pvrProperty .pvrPropertyEditor .pvrPropertyHelp .idxHoverHelp .dijitDropDownButton .dijitButtonNode {
+	/* override lotusui30 dropdownbutton styles */
+    border: none !important;
+    border-radius: 0!important;
+    padding: 0!important;
+    background: none!important;
+    min-width: 0 !important;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+	-moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0)!important;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0)!important;
+}
+
+.pvrProperty .pvrPropertyEditor .pvr-ar .pvrPropertyHelp .idxHoverHelp .idxButtonIcon .idxHelpIcon {
+    background-image: url("images/Help12_ar.png") !important;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrPropertyHidden,
+.pvrProperty .pvrPropertyEditor .pvrPropertyUnbound {
+	display: none;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayout {
+	position: relative;
+	overflow: visible;
+	z-index: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutOuter {
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	border: none;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInner {
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	overflow: visible !important;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutBordered .pvrLayoutOuter {
+	border: 1px solid #dddddd;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInner {
+	background-color: #ffffff;
+	display: block;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerEmpty {
+	min-width: 182px;
+	min-height: 41px;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerPadded {
+	padding: 10px !important;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerHorizontal {
+	white-space: nowrap;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutItem {
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutItemHidden {
+	display: none;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerVertical > .pvrLayoutItem {
+	display: block;
+	padding: 5px 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerHorizontal > .pvrLayoutItem {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerVertical > .pvrLayoutItem:first-child {
+	padding-top: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerVertical > .pvrLayoutItem:last-child {
+	padding-bottom: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerHorizontal > .pvrLayoutItem:first-child {
+	padding-left: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerHorizontal > .pvrLayoutItem:last-child {
+	padding-right: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .dijitRtl .pvrLayoutInnerHorizontal > .pvrLayoutItem:first-child {
+	padding-right: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .dijitRtl .pvrLayoutInnerHorizontal > .pvrLayoutItem:last-child {
+	padding-left: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerLabelAbove > .pvrProperty > .pvrPropertyLabelWrapper,
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerLabelAbove > .pvrProperty > .pvrPropertyEditor {
+	display: block;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerLabelBeside > .pvrProperty > .pvrPropertyLabelWrapper,
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerLabelBeside > .pvrProperty > .pvrPropertyEditor {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerLabelBeside > .pvrProperty > .pvrPropertyLabelWrapper {
+	padding-right: 5px;
+}
+
+.pvrProperty .pvrPropertyEditor .dijitRtl .pvrLayoutInnerLabelBeside > .pvrProperty > .pvrPropertyLabelWrapper {
+	padding-left: 5px;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrProperty > .pvrPropertyLabelWrapper > .pvrPropertyLabel{
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInnerLabelBeside > .pvrProperty > .pvrPropertyLabelWrapperHidden {
+	padding-right: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .dijitRtl .pvrLayoutInnerLabelBeside > .pvrProperty > .pvrPropertyLabelWrapperHidden {
+	padding-left: 0;
+}
+
+.pvrProperty .pvrPropertyEditor .xpvrLayoutInner > .pvrProperty .pvrPropertyLabel {
+	display: inline-block;
+	color: #8f8f8f;
+}
+
+.pvrProperty .pvrPropertyEditor .pvrLayoutInner > .pvrPropertyLabeled .pvrPropertyLabel {
+	display: none;
+}
+
+.pvrEditor .pvrProperty .pvrPropertyEditor .pvrEditor {
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 100%;
+}
+
+.pvrEditor .pvrProperty .pvrPropertyEditor .pvrEditor > .idxFieldWrap {
+	white-space: nowrap;
+}
+
+.pvrEditor .pvrProperty .pvrPropertyEditor .pvrEditor .dijitValidationContainer {
+	display: none !important;
+}
+
+.pvrEditor .pvrProperty .pvrPropertyEditor .pvrEditor.dijitError .dijitValidationContainer {
+	display: inline-block !important;
+	vertical-align: middle;
+	float: none;
+}

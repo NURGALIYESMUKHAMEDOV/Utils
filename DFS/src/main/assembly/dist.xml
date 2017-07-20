@@ -1,0 +1,59 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+    <id>dist</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${project.basedir}</directory>
+            <includes>
+                <include>README*</include>
+                <include>LICENSE*</include>
+                <include>NOTICE*</include>
+            </includes>
+            <useDefaultExcludes>true</useDefaultExcludes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.basedir}/src/main/resources</directory>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+    </fileSets>
+  <!--  <dependencySets>
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <scope>runtime</scope>
+            <excludes>
+                <exclude>kz.bsbnb.ecm.extension:DFS</exclude>
+                <exclude>kz.bsbnb.ecm.extension:json</exclude>
+                <exclude>backport-util-concurrent:backport-util-concurrent-java12</exclude>
+                <exclude>org.codehaus.groovy:groovy-all</exclude>
+            </excludes>
+        </dependencySet>
+         <include>kz.bsbnb.ecm.extension:Components:jar:*</include>
+    </dependencySets>-->
+
+    <moduleSets>
+        <moduleSet>
+            <useAllReactorProjects>true</useAllReactorProjects>
+            <includes>
+                <include>kz.bsbnb.ecm.extension:dfs-plugin:jar:*</include>
+                <include>kz.bsbnb.ecm.extension:json:jar:*</include>
+            </includes>
+            <binaries>
+                <outputDirectory>/</outputDirectory>
+                <dependencySets>
+                    <dependencySet>
+                        <excludes>
+                            <exclude>*:*</exclude>
+                        </excludes>
+                    </dependencySet>
+                </dependencySets>
+                <unpack>false</unpack>
+            </binaries>
+        </moduleSet>
+    </moduleSets>
+
+</assembly>

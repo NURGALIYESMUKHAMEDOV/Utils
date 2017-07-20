@@ -1,0 +1,10 @@
+{
+  "contentClass": "ESBD_Person",
+  "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+  "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{A0C10353-0000-C919-A656-ACECF651C629}",
+  "viewTitle": "Заявитель",
+  "viewIntroText" : "Используйте параметры поиска для того чтобы найти информацию о заявителе",
+  "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}",
+  "addTitle": "Новый заявитель",
+  "addIntroText" : "Укажите информацию о новом заявителе"
+}

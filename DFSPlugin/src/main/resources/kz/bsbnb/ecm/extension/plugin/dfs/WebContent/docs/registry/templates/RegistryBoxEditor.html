@@ -1,0 +1,28 @@
+<div>
+    <!-- Label and star indicator. Do not change this part. -->
+    <div class="idxLabel dijitInline dijitHidden" dojoAttachPoint="labelWrap">
+        <label dojoAttachPoint="compLabelNode"></label>
+    </div>
+
+    <!-- Custom code goes in the div with stateNode and oneuiBaseNode attach point. -->
+    <div dojoAttachPoint="stateNode,oneuiBaseNode">
+
+        <!-- Yes and No check boxes. -->
+        <form action="" dojoAttachPoint="checkBoxNode,focusNode">
+            <div data-dojo-attach-point="registryNameNode" data-dojo-attach-event="onclick: _onSelectObject">укажите значение</div>
+            <!--
+
+            <label><input type="checkbox" data-dojo-attach-point="yesNode" data-dojo-attachevent="onclick:_onYesClick">Да</input></label>
+            <label><input type="checkbox" data-dojo-attach-point="noNode" data-dojo-attachevent="onclick:_onNoClick">Нет</input></label>
+            -->
+        </form>
+    </div>
+
+    <!-- Error icon. Do not change this part. -->
+    <div class='dijitReset dijitInline dijitValidationContainer' dojoAttachPoint="iconNode">
+        <div class="dijitValidationIcon">
+            <input class="dijitReset dijitInputField dijitValidationInner" value="&#935; " type="text"
+                   tabIndex="-1" readonly="readonly" role="presentation"/>
+        </div>
+    </div>
+ </div>

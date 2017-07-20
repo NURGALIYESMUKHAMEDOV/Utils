@@ -1,0 +1,22 @@
+{
+  "Name": "DFS",
+  "Description": "Библиотека редакторов свойств",
+  "Locale": "",
+  "Version": "5.2.1",
+  "Extensions": [
+    {
+      "id": "DFSExtensions",
+      "title": "Редакторы свойств",
+      "description": "",
+      "type": "ViewDesignerExtensions",
+      "packages": {
+        "docs": "/navigator/plugin/DFSPlugin/getResource/docs"
+      },
+      "css": [
+        "/navigator/plugin/DFSPlugin/getResource/docs/themes/DFSPlugin.css"
+      ],
+      "bootstrapModule": "docs/RegistryManager",
+      "bootstrapMethod": "initialize"
+    }
+  ]
+}

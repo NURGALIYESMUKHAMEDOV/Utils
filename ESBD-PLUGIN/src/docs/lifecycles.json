@@ -1,0 +1,18 @@
+{
+  "ESBD_Person" : {
+    "states" : {
+      "new" : {
+
+      },
+      "registered" : {
+
+      },
+      "archive" : {
+
+      },
+      "cancelled" : {
+        
+      }
+    }
+  }
+}

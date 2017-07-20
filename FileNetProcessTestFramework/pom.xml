@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Utils</artifactId>
+        <groupId>kz.bsbnb.ecm.extension</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>FileNetProcessTestFramework</artifactId>
+    <name>FileNetProcessTestFramework</name>
+    <build>
+        <finalName>FileNetProcessTestFramework</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.15</version>
+                <configuration>
+                    <argLine>-Dfile.encoding=UTF-8 -Dconsole.encoding=UTF-8</argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>Jace</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>javaapi</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>listener</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>log4j</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>p8cjares</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>pe3pt</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>peResources</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>client-download</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>pe</artifactId>
+            <version>5.2.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>stax-api</artifactId>
+            <version>5.2.1.6</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.filenet.cpe</groupId>
+            <artifactId>xlxpScanner</artifactId>
+            <version>5.2.1.6</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+        <groupId>com.ibm.filenet.cpe</groupId>
+        <artifactId>xlxpScannerUtils</artifactId>
+        <version>5.2.1.6</version>
+            <scope>runtime</scope>
+    </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>6.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>security.crypto</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>admin.client</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>jaxws.thinclient</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>ibmorb</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>naming</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>namingclient</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>ras</artifactId>
+            <version>8.5.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ibm.ws</groupId>
+            <artifactId>ras</artifactId>
+            <version>8.5.0</version>
+            <scope>wsexception</scope>
+        </dependency>
+
+    </dependencies>
+
+    <url>http://www.patrickvanderhorst.info/blogs/filenet-workflow-test-framework-(part-1-of-3).html</url>
+    <description>A framework to make it possible to test IBM FileNet workflows from unit tests</description>
+    <developers>
+        <developer>
+            <id>pvdhorst</id>
+            <name>Patrick van der Horst</name>
+            <url>https://nl.linkedin.com/in/patrickvanderhorst</url>
+            <email>horst.vander.patrick@gmail.com</email>
+        </developer>
+    </developers>
+
+</project>

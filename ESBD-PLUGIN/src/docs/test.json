@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "global": true,
+      "actionModelClass": "",
+      "pluginId": "ESBDPlugin",
+      "additionalConfiguration": {},
+      "label": "Добавить",
+      "action": "ESBD_AddDocumentAction",
+      "serverTypes": "p8",
+      "menuType": "ESBD_DocumentListMenuType",
+      "icon": "plugin.do?plugin=ESBD_AddDocumentAction&action=getResource&resource=null",
+      "menuId": "ESBD_DocumentListMenu",
+      "menuTypes": "ESBD_DocumentListMenuType",
+      "id": "ESBD_AddDocumentAction",
+      "listTypes": "",
+      "privilegeName": "",
+      "widgetFunction": null,
+      "widgetType": null,
+      "iconClass": "",
+      "multiDoc": false
+    }
+  ]
+}

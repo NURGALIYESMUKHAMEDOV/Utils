@@ -1,0 +1,11 @@
+.DSigCertificate {
+    color: blue;
+    text-decoration: none;
+    cursor: default;
+}
+
+.DSigCertificate:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: default;
+}

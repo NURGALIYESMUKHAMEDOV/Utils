@@ -1,0 +1,70 @@
+<div class="ecmCommonPropertiesPane">
+
+    <div
+            data-dojo-type="dijit/layout/TabContainer"
+            data-dojo-attach-point="tabContainer"
+            data-dojo-props="region: 'center'">
+
+        <div
+                title="Страхователь"
+                data-dojo-type="dijit/layout/ContentPane"
+                data-dojo-attach-point="insurerTab"
+                style="overflow: auto">
+
+            <div
+                    data-dojo-type="esbd/contract/InsurerBox"
+                    data-dojo-attach-point="insurerBox"
+                    data-dojo-props="contentClasses: ['ESBD_Person', 'ESBD_Entity'], entryTemplates: {'ESBD_Person': 'EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{40DA4452-0000-CD11-9EB4-903F210DE510}', 'ESBD_Entity': 'EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{E0DB4452-0000-C516-ACEA-934C85277810}'}, searchTemplatePaths: {'ESBD_Person': '/Конфигурация/Поиск/Физические лица', 'ESBD_Entity': '/Конфигурация/Поиск/Юридические лица'}">
+
+            </div>
+
+        </div>
+
+        <div
+                title="Застрахованные лица"
+                data-dojo-type="dijit/layout/ContentPane"
+                data-dojo-attach-point="insuredClientsTab"
+                style="overflow: auto">
+
+            <div
+                    data-dojo-type="esbd/contract/InsuredClientListBox"
+                    data-dojo-attach-point="insuredClientListBox"
+                    data-dojo-props="contentClasses: ['ESBD_Person', 'ESBD_Entity'], entryTemplates: {'ESBD_Person': 'EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{20494B52-0000-CE15-BD2B-41A49ED6BD75}', 'ESBD_Entity': 'EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{E0EE4452-0000-C319-AE67-8D5F88FB80C5}'}, searchTemplatePaths: {'ESBD_Person': '/Конфигурация/Поиск/Физические лица', 'ESBD_Entity': '/Конфигурация/Поиск/Юридические лица'}">
+
+            </div>
+
+        </div>
+
+        <div
+                title="Застрахованные ТС"
+                data-dojo-type="dijit/layout/ContentPane"
+                data-dojo-attach-point="insuredVehiclesTab"
+                style="overflow: auto">
+
+            <div
+                    data-dojo-type="esbd/contract/InsuredVehicleListBox"
+                    data-dojo-attach-point="insuredVehicleListBox"
+                    data-dojo-props="contentClass: 'ESBD_Vehicle', entryTemplate: 'EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{B0CB4452-0000-C713-9A0A-752D0CF6679F}', searchTemplatePath: '/Конфигурация/Поиск/Транспортные средства'">
+
+            </div>
+
+        </div>
+
+        <div
+                title="Информация"
+                data-dojo-type="dijit/layout/ContentPane"
+                data-dojo-attach-point="informationTab"
+                style="overflow: auto">
+
+            <div
+                    data-dojo-type="esbd/contract/PropertiesBox"
+                    data-dojo-attach-point="propertiesBox"
+                    data-dojo-props="entryTemplate: 'EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{F0D44C52-0000-CF10-A742-749C01A22E22}'">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

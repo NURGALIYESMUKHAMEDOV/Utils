@@ -1,0 +1,7 @@
+{
+  "contentClass": "ESBD_DamageAssessment",
+  "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{20D93353-0000-CD1F-A10C-33388B10E48A}",
+  "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{20D93353-0000-CD1F-A10C-33388B10E48A}",
+  "addTitle": "Экспертиза",
+  "addIntroText" : "Укажите параметры экспертизы при оценке ущерба"
+}

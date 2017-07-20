@@ -1,0 +1,46 @@
+<div
+    data-dojo-type="dijit/layout/ContentPane">
+
+    <div
+        data-dojo-type="dijit/layout/ContentPane">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label for="${id}-searchSelector">Поиск</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <div
+                            data-dojo-type="ecm/widget/Select"
+                            data-dojo-attach-point="searchSelector"
+                            data-dojo-props="id: '${id}-searchSelector'"
+                            data-dojo-attach-event="onChange: onSelect"></div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div
+            data-dojo-type="dijit/layout/ContentPane"
+            data-dojo-attach-point="searchFormPane">
+
+        <div
+                data-dojo-type="ecm/widget/search/SearchForm"
+                data-dojo-attach-point="searchForm"
+                data-dojo-attach-event="onSearchCriteriaLoad: onSearchCriteriaLoad, onSearchCompleted: onSearchCompleted"></div>
+
+    </div>
+
+</div>

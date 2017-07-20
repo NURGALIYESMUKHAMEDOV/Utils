@@ -1,0 +1,55 @@
+<div>
+
+    <table class="propertyTable" role="presentation">
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <span class="required">*</span>
+
+                <label for="${id}_repo">Репозиторий:</label>&nbsp;
+
+            </td>
+
+            <td class="propertyRowValue">
+
+                <select
+                        id="${id}_repo"
+                        data-dojo-props="required: true"
+                        data-dojo-attach-point="repositoryField"
+                        data-dojo-attach-event="onChange: _onRepositoryChange"
+                        data-dojo-type="ecm/widget/Select">
+                </select>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <span class="required">*</span>
+
+                <label for="${id}_config">Конфигурация:</label>
+
+            </td>
+
+            <td class="propertyRowValue">
+
+                <div
+                        id="${id]_config"
+                        data-dojo-type="idx/form/Link"
+                        data-dojo-attach-point="configField"
+                        data-dojo-attach-event="onClick: _onConfig"
+                        data-dojo-props="label: 'Конфигурация'">
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

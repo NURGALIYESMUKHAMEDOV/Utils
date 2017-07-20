@@ -1,0 +1,84 @@
+<div>
+
+    <div
+            data-dojo-type="ecm/widget/TitlePane"
+            data-dojo-props="title: 'Информация'">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-name">Наименование</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                            data-dojo-props="id: '${id}-name', required: true, style: {width: '400px'}, missingMessage: 'Значение поля обязательно к указанию', invalidMessage: 'Значение поля обязательно к указанию'"
+                            data-dojo-attach-point="ESBD_CompanyName"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-code">Обозначение</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                            data-dojo-props="id: '${id}-code', required: false, style: {width: '100px'}"
+                            data-dojo-attach-point="ESBD_CompanyCode"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-agents">Агенты</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <div
+                        data-dojo-props="id: '${id}-agents', required: false"
+                        data-dojo-type="ecm/widget/UserGroupPane"
+                        data-dojo-attach-point="ESBD_Agents"
+                        data-dojo-attach-event="onChange: _onDirty"></div>
+
+                    <button
+                            data-dojo-attach-point="searchButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: _onUsers">Добавить</button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

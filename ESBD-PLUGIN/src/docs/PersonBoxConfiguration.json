@@ -1,0 +1,8 @@
+{
+  "contentClass": "ESBD_Person",
+  "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{6087FD52-0000-CA11-BBCB-101FF0A0E1A5}",
+  "addEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{B0BB3A52-0000-CB19-8AC6-88F24B8528CA}",
+  "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+  "searchTitle": "Поиск физического лица",
+  "searchIntroText" : "Укажите требуемые параметры поиска физического лица"
+}

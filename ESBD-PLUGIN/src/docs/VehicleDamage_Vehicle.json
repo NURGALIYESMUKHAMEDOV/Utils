@@ -1,0 +1,12 @@
+[
+  {
+    "contentClass": "ESBD_Vehicle",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Транспортные средства",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{4094FD52-0000-C116-9E52-B34F1A519F10}",
+    "viewTitle": "Транспортное средство",
+    "viewIntroText": "Укажите пострадавшее транспортное средство",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{0037E752-0000-CE1E-9714-62F4512BD8BC}",
+    "addTitle": "Новое транспортное средство",
+    "addIntroText": "Укажите необходимые параметры для добавления описания нового транспортного средства"
+  }
+]

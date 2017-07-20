@@ -1,0 +1,226 @@
+{
+  "restrictToSelectedFolderOrDescendant": false,
+  "userModifiesLaunchStep": false,
+  "useForDocumentInformationProperties": true,
+  "addClassName": "ESBD_InsuranceContract",
+  "permissions": [
+    {
+      "accessMask": 998903,
+      "roleName": null,
+      "granteeType": 2000,
+      "granteeName": "#CREATOR-OWNER",
+      "inheritableDepth": 0,
+      "accessType": 1
+    },
+    {
+      "accessMask": 998903,
+      "roleName": null,
+      "granteeType": 2000,
+      "granteeName": "p8admin",
+      "inheritableDepth": 0,
+      "accessType": 1
+    },
+    {
+      "accessMask": 998903,
+      "roleName": null,
+      "granteeType": 2001,
+      "granteeName": "ESBD Admins",
+      "inheritableDepth": 0,
+      "accessType": 1
+    }
+  ],
+  "allowSavePropertiesOnly": true,
+  "allowUserSetPropertyValues": true,
+  "useForViewerProperties": true,
+  "enableCompoundDocuments": {
+    "readOnly": true,
+    "hidden": true,
+    "on": false
+  },
+  "allowDuplicateFileNames": true,
+  "useForCheckin": true,
+  "name": "\u0414\u043e\u0433\u043e\u0432\u043e\u0440 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f",
+  "modelIntegrationClass": "ecm\/model\/configuration\/ModelIntegration",
+  "securityPolicy": null,
+  "autoClassify": {
+    "readOnly": true,
+    "hidden": true,
+    "on": false
+  },
+  "useForProperties": true,
+  "workflowVersion": null,
+  "declareRecord": "NEVER_DECLARE",
+  "id": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{7004B353-0000-C911-BABF-C3D52FD40A7C}",
+  "allowUserSelectFolder": false,
+  "controlRegistryClass": "ecm\/model\/configuration\/ControlRegistry",
+  "saveToFolderInheritParentSecurity": false,
+  "allowSaveLocalDocument": false,
+  "objectStore": "{3D290B7C-5E36-49FC-A126-AF79357CC44B}",
+  "workflowPredefined": false,
+  "resources": {
+    "\u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b": "\u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b",
+    "\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0422\u0421": "\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0422\u0421",
+    "\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043b\u0438\u0446\u0430": "\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043b\u0438\u0446\u0430",
+    "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c": "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c"
+  },
+  "allowSaveExternalDocumentLink": false,
+  "saveToFolder": "Folder,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{A11B1452-E0AD-473F-8BDA-E0DDF17BF35F}",
+  "markup": "<div data-dojo-type=\"pvr\/widget\/Layout\" data-dojo-props=\"labelAlignment:'horizontal',labelWidth:'180px',padded:true\"><div data-dojo-type=\"pvr\/widget\/TabContainer\"><div data-dojo-type=\"pvr\/widget\/Layout\" data-dojo-props=\"title:'\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c',padded:true\"><div data-dojo-type=\"pvr\/widget\/PropertyList\"><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_Insurer',required:true,editor:'components\/editors\/DocumentBoxEditor',editorParams:{configuration:'[\\n  {\\n    \\&quot;className\\&quot;: \\&quot;ESBD_Person\\&quot;,\\n    \\&quot;displayName\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n    \\&quot;config\\&quot;: {\\n      \\&quot;list\\&quot;: {\\n        \\&quot;title\\&quot;: \\&quot;\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c\\&quot;,\\n        \\&quot;description\\&quot;: \\&quot;\u041d\u0430\u0439\u0434\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044f\\&quot;,\\n        \\&quot;searchTemplatesPath\\&quot;: \\&quot;\/\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f\/\u041f\u043e\u0438\u0441\u043a\/\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430\\&quot;\\n      },\\n      \\&quot;preview\\&quot;: {\\n        \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{302AE752-0000-C910-959F-F41B97DDCFC4}\\&quot;\\n      },\\n      \\&quot;add\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Person\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u041d\u043e\u0432\u043e\u0435 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0434\u043b\u044f \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}\\&quot;\\n          }\\n        ]\\n      },\\n      \\&quot;modify\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Person\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0412\u043d\u0435\u0441\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}\\&quot;\\n          }\\n        ]\\n      }\\n    }\\n  },\\n  {\\n    \\&quot;className\\&quot;: \\&quot;ESBD_Entity\\&quot;,\\n    \\&quot;displayName\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n    \\&quot;config\\&quot;: {\\n      \\&quot;list\\&quot;: {\\n        \\&quot;title\\&quot;: \\&quot;\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c\\&quot;,\\n        \\&quot;description\\&quot;: \\&quot;\u041d\u0430\u0439\u0434\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044f\\&quot;,\\n        \\&quot;searchTemplatesPath\\&quot;: \\&quot;\/\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f\/\u041f\u043e\u0438\u0441\u043a\/\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430\\&quot;\\n      },\\n      \\&quot;preview\\&quot;: {\\n        \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{602FE752-0000-CB1C-81B5-3B3074909E98}\\&quot;\\n      },\\n      \\&quot;add\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Entity\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u041d\u043e\u0432\u043e\u0435 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0434\u043b\u044f \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{3026E752-0000-C81C-A23D-DED4BE68762D}\\&quot;\\n          }\\n        ]\\n      },\\n      \\&quot;modify\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Entity\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0412\u043d\u0435\u0441\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{3026E752-0000-C81C-A23D-DED4BE68762D}\\&quot;\\n          }\\n        ]\\n      }\\n    }\\n  }\\n]'}\"><\/div><\/div><\/div><div data-dojo-type=\"pvr\/widget\/Layout\" data-dojo-props=\"title:'\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043b\u0438\u0446\u0430',padded:true\"><div data-dojo-type=\"pvr\/widget\/PropertyList\"><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_InsuredClients',editor:'components\/editors\/DocumentsBoxEditor',editorParams:{configuration:'[\\n  {\\n    \\&quot;className\\&quot;: \\&quot;ESBD_Person\\&quot;,\\n    \\&quot;displayName\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n    \\&quot;config\\&quot;: {\\n      \\&quot;list\\&quot;: {\\n        \\&quot;title\\&quot;: \\&quot;\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c\\&quot;,\\n        \\&quot;description\\&quot;: \\&quot;\u041d\u0430\u0439\u0434\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044f\\&quot;,\\n        \\&quot;searchTemplatesPath\\&quot;: \\&quot;\/\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f\/\u041f\u043e\u0438\u0441\u043a\/\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430\\&quot;\\n      },\\n      \\&quot;preview\\&quot;: {\\n        \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{4032E752-0000-CA10-B477-4EBEC594297F}\\&quot;\\n      },\\n      \\&quot;add\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Person\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u041d\u043e\u0432\u043e\u0435 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0434\u043b\u044f \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}\\&quot;\\n          }\\n        ]\\n      },\\n      \\&quot;modify\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Person\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0412\u043d\u0435\u0441\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}\\&quot;\\n          }\\n        ]\\n      }\\n    }\\n  },\\n  {\\n    \\&quot;className\\&quot;: \\&quot;ESBD_Entity\\&quot;,\\n    \\&quot;displayName\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n    \\&quot;config\\&quot;: {\\n      \\&quot;list\\&quot;: {\\n        \\&quot;title\\&quot;: \\&quot;\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c\\&quot;,\\n        \\&quot;description\\&quot;: \\&quot;\u041d\u0430\u0439\u0434\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044f\\&quot;,\\n        \\&quot;searchTemplatesPath\\&quot;: \\&quot;\/\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f\/\u041f\u043e\u0438\u0441\u043a\/\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430\\&quot;\\n      },\\n      \\&quot;preview\\&quot;: {\\n        \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{B035E752-0000-CB13-A200-D15D6607440A}\\&quot;\\n      },\\n      \\&quot;add\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Entity\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u041d\u043e\u0432\u043e\u0435 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0434\u043b\u044f \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{3026E752-0000-C81C-A23D-DED4BE68762D}\\&quot;\\n          }\\n        ]\\n      },\\n      \\&quot;modify\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Entity\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0412\u043d\u0435\u0441\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{3026E752-0000-C81C-A23D-DED4BE68762D}\\&quot;\\n          }\\n        ]\\n      }\\n    }\\n  }\\n]'},innerEditor:'pvr\/widget\/editors\/TextBoxEditor'\"><\/div><\/div><\/div><div data-dojo-type=\"pvr\/widget\/Layout\" data-dojo-props=\"title:'\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0422\u0421',padded:true\"><div data-dojo-type=\"pvr\/widget\/PropertyList\"><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_InsuredVehicles',editor:'components\/editors\/DocumentsBoxEditor',editorParams:{configuration:'[\\n  {\\n    \\&quot;className\\&quot;: \\&quot;ESBD_Vehicle\\&quot;,\\n    \\&quot;displayName\\&quot;: \\&quot;\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\\&quot;,\\n    \\&quot;config\\&quot;: {\\n      \\&quot;list\\&quot;: {\\n        \\&quot;title\\&quot;: \\&quot;\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\\&quot;,\\n        \\&quot;description\\&quot;: \\&quot;\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\\&quot;,\\n        \\&quot;searchTemplatesPath\\&quot;: \\&quot;\/\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f\/\u041f\u043e\u0438\u0441\u043a\/\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430\\&quot;\\n      },\\n      \\&quot;preview\\&quot;: {\\n        \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{903AE752-0000-C41C-AA8E-365CF27B4787}\\&quot;\\n      },\\n      \\&quot;add\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Vehicle\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0434\u043b\u044f \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{0037E752-0000-CE1E-9714-62F4512BD8BC}\\&quot;\\n          }\\n        ]\\n      },\\n      \\&quot;modify\\&quot;: {\\n        \\&quot;classes\\&quot;: [\\n          {\\n            \\&quot;className\\&quot;: \\&quot;\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\\&quot;,\\n            \\&quot;contentClass\\&quot;: \\&quot;ESBD_Vehicle\\&quot;,\\n            \\&quot;title\\&quot;: \\&quot;\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\\&quot;,\\n            \\&quot;description\\&quot;: \\&quot;\u0412\u043d\u0435\u0441\u0438\u0442\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\\&quot;,\\n            \\&quot;entryTemplate\\&quot;: \\&quot;EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{0037E752-0000-CE1E-9714-62F4512BD8BC}\\&quot;\\n          }\\n        ]\\n      }\\n    }\\n  }\\n]'},innerEditor:'pvr\/widget\/editors\/TextBoxEditor'\"><\/div><\/div><\/div><div data-dojo-type=\"pvr\/widget\/Layout\" data-dojo-props=\"title:'\u041f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b',padded:true\"><div data-dojo-type=\"pvr\/widget\/PropertyList\"><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_Source',label:'\u041d\u0430 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0438',editor:'esbd\/editor\/ObjectLinkEditor',editorParams:{actionName:'openContractAction'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_Successor',label:'\u0417\u0430\u043c\u0435\u0441\u0442\u0438\u0442\u0435\u043b\u044c',editor:'esbd\/editor\/ObjectLinkEditor',editorParams:{actionName:'openContractAction'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_Status',readOnly:true,defaultValue:'\u041d\u043e\u0432\u044b\u0439',editor:'pvr\/widget\/editors\/TextBoxEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_DocumentNumber',label:'\u041d\u043e\u043c\u0435\u0440',readOnly:true,editor:'pvr\/widget\/editors\/TextBoxEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_IsDraft',label:'\u0427\u0435\u0440\u043d\u043e\u0432\u0438\u043a?',editor:'pvr\/widget\/editors\/CheckBoxEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_SubmitDate',editor:'pvr\/widget\/editors\/DateTextBoxEditor',editorParams:{fieldWidth:'100px',datePattern:'dd.MM.yyyy'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_StartDate',editor:'pvr\/widget\/editors\/DateTextBoxEditor',editorParams:{fieldWidth:'100px',datePattern:'dd.MM.yyyy'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_EndDate',editor:'pvr\/widget\/editors\/DateTextBoxEditor',editorParams:{fieldWidth:'100px',datePattern:'dd.MM.yyyy'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_Branch',editor:'pvr\/widget\/editors\/FilteringSelectEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_InsuranceCertificateNumber',label:'\u041d\u043e\u043c\u0435\u0440 \u043f\u043e\u043b\u0438\u0441\u0430',editor:'esbd\/editor\/TextBoxExtEditor',editorParams:{visibility:'console.log(\\&quot;payload: \\&quot;, payload);\\n\\nvar controller = payload.property.collectionController.getPropertyController(\\&quot;ESBD_IsDraft\\&quot;);\\n\\nvar value = controller.model.value ;\\n\\nconsole.log(\\&quot;value: \\&quot;, value);\\n\\nreturn value;'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_Premium',editor:'pvr\/widget\/editors\/NumberTextBoxEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_CalculatedPremium',editor:'esbd\/editor\/PremiumBoxEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_PaymentType',editor:'pvr\/widget\/editors\/FilteringSelectEditor'\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_PaymentDate',editor:'pvr\/widget\/editors\/DateTextBoxEditor',editorParams:{fieldWidth:'100px',datePattern:'dd.MM.yyyy'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_TerminateDate',readOnly:true,editor:'pvr\/widget\/editors\/DateTextBoxEditor',editorParams:{fieldWidth:'100px',datePattern:'dd.MM.yyyy'}\"><\/div><div data-dojo-type=\"pvr\/widget\/Property\" data-dojo-props=\"binding:'Properties.ESBD_ReturnOfPremium',readOnly:true,editor:'pvr\/widget\/editors\/NumberTextBoxEditor'\"><\/div><\/div><\/div><\/div><\/div>",
+  "workflowName": null,
+  "templatePermissions": [
+    {
+      "accessMask": 998903,
+      "roleName": null,
+      "granteeType": 2000,
+      "granteeName": "CN=esbdadmin,CN=Users,DC=ecm911,DC=local",
+      "inheritableDepth": 0,
+      "accessType": 1
+    }
+  ],
+  "userLaunchesWorkflow": false,
+  "propertiesOptions": [
+    {
+      "dataType": "xs:guid",
+      "name": "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "id": "ESBD_Insurer",
+      "required": true
+    },
+    {
+      "defaultValue": [],
+      "dataType": "xs:guid",
+      "name": "\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043b\u0438\u0446\u0430",
+      "id": "ESBD_InsuredClients",
+      "cardinality": "LIST"
+    },
+    {
+      "defaultValue": [],
+      "dataType": "xs:guid",
+      "name": "\u0417\u0430\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "id": "ESBD_InsuredVehicles",
+      "cardinality": "LIST"
+    },
+    {
+      "dataType": "xs:guid",
+      "name": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0435",
+      "id": "ESBD_Source"
+    },
+    {
+      "dataType": "xs:guid",
+      "name": "\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u043d\u0430\u0441\u043b\u0435\u0434\u043d\u0438\u043a",
+      "id": "ESBD_Successor"
+    },
+    {
+      "defaultValue": "\u041d\u043e\u0432\u044b\u0439",
+      "readOnly": true,
+      "dataType": "xs:string",
+      "name": "\u0421\u0442\u0430\u0442\u0443\u0441",
+      "id": "ESBD_Status"
+    },
+    {
+      "readOnly": true,
+      "dataType": "xs:string",
+      "name": "\u041d\u043e\u043c\u0435\u0440 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "id": "ESBD_DocumentNumber"
+    },
+    {
+      "dataType": "xs:boolean",
+      "name": "\u0427\u0435\u0440\u043d\u043e\u0432\u0438\u043a",
+      "id": "ESBD_IsDraft"
+    },
+    {
+      "dataType": "xs:timestamp",
+      "name": "\u0414\u0430\u0442\u0430 \u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f",
+      "id": "ESBD_SubmitDate"
+    },
+    {
+      "dataType": "xs:timestamp",
+      "name": "\u0414\u0430\u0442\u0430 \u043d\u0430\u0447\u0430\u043b\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+      "id": "ESBD_StartDate"
+    },
+    {
+      "dataType": "xs:timestamp",
+      "name": "\u0414\u0430\u0442\u0430 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+      "id": "ESBD_EndDate"
+    },
+    {
+      "dataType": "xs:integer",
+      "name": "\u0424\u0438\u043b\u0438\u0430\u043b",
+      "id": "ESBD_Branch"
+    },
+    {
+      "dataType": "xs:string",
+      "name": "\u041d\u043e\u043c\u0435\u0440 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043b\u0438\u0441\u0430",
+      "id": "ESBD_InsuranceCertificateNumber"
+    },
+    {
+      "dataType": "xs:double",
+      "name": "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u044f \u043f\u0440\u0435\u043c\u0438\u044f",
+      "id": "ESBD_Premium"
+    },
+    {
+      "dataType": "xs:double",
+      "name": "\u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u044f \u043f\u0440\u0435\u043c\u0438\u044f",
+      "id": "ESBD_CalculatedPremium"
+    },
+    {
+      "dataType": "xs:string",
+      "name": "\u041f\u043e\u0440\u044f\u0434\u043e\u043a \u043e\u043f\u043b\u0430\u0442\u044b",
+      "id": "ESBD_PaymentType"
+    },
+    {
+      "dataType": "xs:timestamp",
+      "name": "\u0414\u0430\u0442\u0430 \u043e\u043f\u043b\u0430\u0442\u044b",
+      "id": "ESBD_PaymentDate"
+    },
+    {
+      "readOnly": true,
+      "dataType": "xs:timestamp",
+      "hidden": true,
+      "name": "\u0414\u0430\u0442\u0430 \u0440\u0430\u0441\u0442\u043e\u0440\u0436\u0435\u043d\u0438\u044f",
+      "id": "ESBD_TerminateDate"
+    },
+    {
+      "readOnly": true,
+      "dataType": "xs:double",
+      "hidden": true,
+      "name": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u0447\u0430\u0441\u0442\u0438 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u043e\u0439 \u043f\u0440\u0435\u043c\u0438\u0438",
+      "id": "ESBD_ReturnOfPremium"
+    },
+    {
+      "defaultValue": "",
+      "dataType": "xs:string",
+      "hidden": true,
+      "name": "Document Title",
+      "id": "DocumentTitle"
+    },
+    {
+      "defaultValue": "AP",
+      "dataType": "xs:string",
+      "hidden": true,
+      "name": "\u041a\u043e\u0434 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u043e\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438",
+      "id": "ESBD_CompanyCode"
+    }
+  ],
+  "overrideClassSecurity": true,
+  "allowUserSelectFile": true,
+  "folder": "Folder,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{C3FE0C10-C4E1-4CEE-8499-C46C65E8609D}",
+  "allowUserSelectSaveChoice": false,
+  "allowUserSetSecurity": false,
+  "allowNoFolderSelected": false,
+  "asMinorVersion": {
+    "readOnly": false,
+    "hidden": false,
+    "on": false
+  },
+  "targetRepositoryId": "ESBD",
+  "checkinAsNewVersion": {
+    "readOnly": false,
+    "hidden": null,
+    "on": null
+  },
+  "teamspaceDefault": "",
+  "type": "DOCUMENT",
+  "description": "",
+  "inheritSecurityFromParentFolder": false,
+  "workflow": null
+}

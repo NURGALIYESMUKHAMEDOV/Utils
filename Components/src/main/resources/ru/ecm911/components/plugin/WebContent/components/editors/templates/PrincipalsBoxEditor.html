@@ -1,0 +1,44 @@
+<div id="widget_${id}" class="dijitInline dijitReset dijitLeft idxComposite">
+
+    <div class="idxLabel dijitInline dijitHidden" data-dojo-attach-point="labelWrap">
+
+        <span class="idxRequiredIcon">*&nbsp</span>
+
+        <label for="${id}" data-dojo-attach-point="compLabelNode"></label>
+
+    </div>
+
+    <div class="dijitInline" data-dojo-attach-point="fieldWrap">
+
+        <div class="dijitInputContainer dijitInline" tabIndex="0" data-dojo-attach-point='focusNode,textbox,stateNode,oneuiBaseNode' autocomplete='off'>
+
+            <div
+                data-dojo-type="idx/form/Link"
+                data-dojo-attach-point="_addPrincipalButton"
+                data-dojo-attach-event="onClick: _onSelect"
+                data-dojo-props="label: 'Добавить'">
+            </div>
+
+            <div
+                data-dojo-type="dijit/layout/ContentPane"
+                data-dojo-attach-point="contentNode">
+
+            </div>
+
+        </div>
+
+        <div class="dijitReset dijitValidationContainer dijitInline" data-dojo-attach-point="iconNode">
+
+            <div class="dijitValidationIcon">
+
+                <input class="dijitReset dijitInputField dijitValidationInner" value="&#935; " type="text" tabIndex="-1" readonly="readonly" role="presentation"/>
+
+            </div>
+
+        </div>
+
+        <div class="dijitHidden idxHintOutside" data-dojo-attach-point="compHintNode"></div>
+
+    </div>
+
+</div>

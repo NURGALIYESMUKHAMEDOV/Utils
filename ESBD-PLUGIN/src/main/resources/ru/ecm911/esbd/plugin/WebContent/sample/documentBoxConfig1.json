@@ -1,0 +1,47 @@
+[
+  {
+    "className": "ESBD_Person",
+    "displayName": "Физическое лицо",
+    "config": {
+      "list": {
+        "title": "Физическое лицо",
+        "description": "Выберите физическое лицо",
+        "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица"
+      },
+      "add": {
+        "title": "Добавить описание физического лица",
+        "description": "Укажите требуемые для добавления параметры",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}"
+      },
+      "modify": {
+        "title": "Физическое лицо",
+        "description": "Внесите требуемые изменения и сохраните",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}"
+      }
+    }
+  },
+  {
+    "className": "ESBD_Entity",
+    "displayName": "Юридическое лицо",
+    "config": {
+      "list": {
+        "title": "Физическое лицо",
+        "description": "Выберите физическое лицо",
+        "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица"
+      },
+      "preview": {
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}"
+      },
+      "add": {
+        "title": "Добавить описание физического лица",
+        "description": "Укажите требуемые для добавления параметры",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}"
+      },
+      "modify": {
+        "title": "Физическое лицо",
+        "description": "Внесите требуемые изменения и сохраните",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}"
+      }
+    }
+  }
+]

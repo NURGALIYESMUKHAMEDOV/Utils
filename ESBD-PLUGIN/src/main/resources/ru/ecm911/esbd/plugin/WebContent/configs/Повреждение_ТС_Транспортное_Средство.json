@@ -1,0 +1,39 @@
+[
+  {
+    "className": "ESBD_Vehicle",
+    "displayName": "Транспортное средство",
+    "config": {
+      "list": {
+        "title": "Транспортное средство",
+        "description": "Выберите транспортное средство",
+        "searchTemplatesPath": "/Конфигурация/Поиск/Транспортные средства"
+      },
+      "preview": {
+        "title": "Транспортное средство",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{D0830353-0000-C619-AA8E-F492D283C8D5}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Транспортное средство",
+            "contentClass": "ESBD_Vehicle",
+            "title": "Добавить описание транспортного средства",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{0037E752-0000-CE1E-9714-62F4512BD8BC}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Транспортное средство",
+            "contentClass": "ESBD_Vehicle",
+            "title": "Транспортное средство",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{0037E752-0000-CE1E-9714-62F4512BD8BC}"
+          }
+        ]
+      }
+    }
+  }
+]

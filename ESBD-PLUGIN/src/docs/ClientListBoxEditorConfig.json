@@ -1,0 +1,17 @@
+[
+  {
+    "contentClass": "ESBD_Person",
+    "viewEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{20996852-0000-C51D-9880-355A04512F71}",
+    "addEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{B0BB3A52-0000-CB19-8AC6-88F24B8528CA}",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+    "searchTitle": "Поиск физического лица",
+    "searchIntroText" : "Укажите требуемые параметры поиска физического лица"
+  }, {
+    "contentClass": "ESBD_Entity",
+    "viewEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{E0EE4452-0000-C319-AE67-8D5F88FB80C5}",
+    "addEntryTemplate": "EntryTemplate,{9FF15FCB-98AA-4DA9-9DBA-1102F2EBE10E},{D0626A52-0000-CF1E-8EF2-89766672F316}",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Юридические лица",
+    "searchTitle": "Поиск юридического лица",
+    "searchIntroText" : "Укажите требуемые параметры поиска юридического лица"
+  }
+]

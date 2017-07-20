@@ -1,0 +1,65 @@
+<div>
+
+    <table cellpadding="2" cellspacing="2" border="0">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-date">Дата расторжения :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-date', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                    data-dojo-attach-point="date"
+                    data-dojo-attach-event="onChange: _calculateReturnOfPremium"
+                    data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td valign="top" align="right">
+
+                <label for="${id}-comment">Причина :</label>
+
+            </td>
+
+            <td>
+
+                <textarea
+                    data-dojo-props="id: '${id}-comment', required: false, style: {width: '30em', height: '8em'}"
+                    data-dojo-attach-point="comment"
+                    data-dojo-type="ecm/widget/ValidationSimpleTextarea"></textarea>
+
+            </td>
+
+        </tr>
+
+        <tr data-dojo-attach-point="returnRow">
+
+            <td align="right">
+
+                <label for="${id}-return">Возврат :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-return', style: {width: '10em'}, constraints:{places:2, pattern: '#########.##'}, invalidMessage:'Неверный формат.'"
+                    data-dojo-attach-point="returnOfPremium"
+                    data-dojo-type="ecm/widget/NumberTextBox" />
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

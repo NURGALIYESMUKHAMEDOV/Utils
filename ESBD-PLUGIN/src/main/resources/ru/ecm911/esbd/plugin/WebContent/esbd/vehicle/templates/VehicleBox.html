@@ -1,0 +1,276 @@
+<div>
+
+    <div
+        data-dojo-type="ecm/widget/TitlePane"
+        data-dojo-props="title: 'Информация'">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-brand">Марка</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                        data-dojo-props="id: '${id}-brand', required: false"
+                        data-dojo-attach-point="ESBD_VehicleBrand"
+                        data-dojo-attach-event="onChange: _onBrandChange"
+                        data-dojo-type="ecm/widget/Select">
+
+                        <option value=""></option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-model">Модель</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                        data-dojo-props="id: '${id}-model', required: false"
+                        data-dojo-attach-point="ESBD_VehicleModel"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/Select">
+
+                        <option value=""></option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-issueYear">Год выпуска</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-issueYear', required: false, style: {width: '80px'}"
+                        data-dojo-attach-point="ESBD_VehicleIssueYear"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <!--
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-VRN">Гос номер</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-VRN', required: false, style: {width: '120px'}"
+                        data-dojo-attach-point="ESBD_VRN"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            -->
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-type">Тип</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                            data-dojo-props="id: '${id}-type', required: false"
+                            data-dojo-attach-point="ESBD_VehicleType"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value=""></option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-VIN">Номер кузова (VIN) / Шасси</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-VIN', required: false, style: {width: '200px'}, invalidMessage: 'Введите корректный VIN, например: WAUHE5438LN612345'"
+                        data-dojo-attach-point="ESBD_VIN"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-engine">Номер двигателя</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-engine', required: false, style: {width: '200px'}"
+                        data-dojo-attach-point="ESBD_VehicleEngineNumber"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-wheel">Расположение руля</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <select
+                            data-dojo-props="id: '${id}-wheel', required: false"
+                            data-dojo-attach-point="ESBD_VehicleSteeringWheel"
+                            data-dojo-attach-event="onChange: _onDirty"
+                            data-dojo-type="ecm/widget/Select">
+
+                        <option value="Слева">Слева</option>
+
+                        <option value="Справа">Справа</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-capacity">Объем</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-capacity', required: false, style: {width: '100px'}"
+                        data-dojo-attach-point="ESBD_VehicleEngineCapacity"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-power">Мощность</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-power', required: false, style: {width: '100px'}"
+                        data-dojo-attach-point="ESBD_VehicleEnginePower"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-color">Цвет</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <input
+                        data-dojo-props="id: '${id}-color', required: false"
+                        data-dojo-attach-point="ESBD_VehicleColor"
+                        data-dojo-attach-event="onChange: _onDirty"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

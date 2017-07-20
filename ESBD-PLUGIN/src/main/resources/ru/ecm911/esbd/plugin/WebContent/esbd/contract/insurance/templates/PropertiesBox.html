@@ -1,0 +1,378 @@
+<div>
+
+    <table class="propertyTable">
+
+        <tr data-dojo-attach-point="sourceRow">
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-source">На основании</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <div style="padding: 4px 1px">
+
+                    <a
+                        data-dojo-attach-point="sourceBox"
+                        data-dojo-attach-event="onClick: _onSource"
+                        style="cursor: default"></a>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+        <tr data-dojo-attach-point="successorRow">
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-successor">Документ</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <div style="padding: 4px 1px">
+
+                    <a
+                        data-dojo-attach-point="successorBox"
+                        data-dojo-attach-event="onClick: _onSuccessor"
+                        style="cursor: default"></a>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-documentNumber">Номер</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-documentNumber', required: false, style: {width: '150px'}, disabled: true"
+                        data-dojo-attach-point="ESBD_DocumentNumber"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-submitDate">Дата заключение</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                    data-dojo-props="id: '${id}-submitDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                    data-dojo-attach-point="ESBD_SubmitDate"
+                    data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-startDate">Дата начала действия</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                    data-dojo-props="id: '${id}-startDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                    data-dojo-attach-point="ESBD_StartDate"
+                    data-dojo-attach-event="onChange: _onStartDateChanged"
+                    data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-endDate">Дата окончания действия</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                    data-dojo-props="id: '${id}-endDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                    data-dojo-attach-point="ESBD_EndDate"
+                    data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-branch">Филиал</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <select
+                        data-dojo-props="id: '${id}-branch', required: false"
+                        data-dojo-attach-point="ESBD_Branch"
+                        data-dojo-type="ecm/widget/Select">
+                </select>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-certificateNumber">Номер полиса</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                    data-dojo-props="id: '${id}-certificateNumber', required: false, style: {width: '25em'}"
+                    data-dojo-attach-point="ESBD_InsuranceCertificateNumber"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-premium">Страховая премия</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                    data-dojo-props="id: '${id}-premium', required: false, style: {width: '10em'}, constraints:{places:2, pattern: '#'}"
+                    data-dojo-attach-point="ESBD_Premium"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-calculatedPremium">Рассчитанная страховая премия</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <table cellpadding="0" cellspacing="0" border="0">
+
+                    <tr>
+
+                        <td>
+
+                            <input
+                                    data-dojo-props="id: '${id}-calculatedPremium', required: false, style: {width: '10em'}, disabled: true, constraints:{places:2, pattern: '#'}"
+                                    data-dojo-attach-point="ESBD_CalculatedPremium"
+                                    data-dojo-type="ecm/widget/NumberTextBox" />
+
+                        </td>
+
+                        <td>&nbsp;</td>
+
+                        <td>
+
+                            <button
+                                    data-dojo-attach-point="calculateButton"
+                                    data-dojo-type="dijit.form.Button"
+                                    data-dojo-attach-event="onClick: _onCalculate">Расчитать</button>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-paymentType">Порядок оплаты</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <select
+                        data-dojo-props="id: '${id}-paymentType', required: false"
+                        data-dojo-attach-point="ESBD_PaymentType"
+                        data-dojo-type="ecm/widget/Select">
+                </select>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-paymentDate">Дата оплаты</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-paymentDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                        data-dojo-attach-point="ESBD_PaymentDate"
+                        data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr data-dojo-attach-point="terminateDateRow">
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-terminateDate">Дата расторжения</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-terminateDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                        data-dojo-attach-point="ESBD_TerminateDate"
+                        data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr data-dojo-attach-point="terminateReasonRow">
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-terminateReason">Причина расторжения</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <textarea
+                    data-dojo-props="id: '${id}-terminateReason', required: false, style: {width: '30em', height: '5em'}"
+                    data-dojo-attach-point="ESBD_TerminateReason"
+                    data-dojo-type="ecm/widget/ValidationSimpleTextarea"></textarea>
+
+            </td>
+
+        </tr>
+
+        <tr data-dojo-attach-point="returnOfPremiumRow">
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-returnOfPremium">Сумма возврата</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-returnOfPremium', style: {width: '10em'}, constraints:{places:2, pattern: '#########.##'}, invalidMessage:'Неверный формат.'"
+                        data-dojo-attach-point="ESBD_ReturnOfPremium"
+                        data-dojo-type="ecm/widget/NumberTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr data-dojo-attach-point="statusRow">
+
+            <td class="propertyRowLabel">
+
+                <label for="${id}-status">Статус</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: '${id}-status', required: false, style: {width: '13em'}"
+                        data-dojo-attach-point="ESBD_Status"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

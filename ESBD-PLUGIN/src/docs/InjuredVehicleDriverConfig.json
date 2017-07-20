@@ -1,0 +1,10 @@
+{
+  "contentClass": "ESBD_Person",
+  "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+  "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{6087FD52-0000-CA11-BBCB-101FF0A0E1A5}",
+  "viewTitle": "Водитель",
+  "viewIntroText" : "Укажите водителя пострадавшего транспортного средства",
+  "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{E01DE752-0000-CD13-82C6-F33CC8921A57}",
+  "addTitle": "Новый водитель",
+  "addIntroText" : "Укажите информацию по водителю пострадавшего транспортного средства"
+}

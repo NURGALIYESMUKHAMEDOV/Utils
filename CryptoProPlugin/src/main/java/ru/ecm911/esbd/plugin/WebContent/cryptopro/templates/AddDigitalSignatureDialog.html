@@ -1,0 +1,52 @@
+<div data-dojo-type="dijit/layout/BorderContainer" gutters="false">
+
+    <IFRAME
+        data-dojo-attach-point="appletFrame"
+        src="/navigator/plugin/CryptoProPlugin/getResource/cryptopro/templates/CryptoPro.html"
+        width="1"
+        height="1"
+        frameborder="0"
+        scrolling="no">
+    </IFRAME>
+
+    <div data-dojo-type="dijit/layout/ContentPane" region="center" style="padding:0;">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label>Сертификат</label>
+
+                </td>
+
+                <td>
+
+                    <div data-dojo-attach-point="containerFieldNode"></div>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label>Информация о сертификате</label>
+
+                </td>
+
+                <td>
+
+                    <div data-dojo-attach-point="certInfoNode"></div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

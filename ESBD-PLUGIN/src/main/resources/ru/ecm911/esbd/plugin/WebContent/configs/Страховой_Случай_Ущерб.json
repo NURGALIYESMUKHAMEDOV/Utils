@@ -1,0 +1,98 @@
+[
+  {
+    "className": "ESBD_VehicleDamage",
+    "displayName": "Повреждение транспортного средства",
+    "config": {
+      "preview": {
+        "title": "Повреждение транспортного средства",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{606E3B53-0000-C213-86D3-590556EDA546}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Повреждение транспортного средства",
+            "contentClass": "ESBD_VehicleDamage",
+            "title": "Добавить повреждение транспортного средства",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{606E3B53-0000-C213-86D3-590556EDA546}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Повреждение транспортного средства",
+            "contentClass": "ESBD_VehicleDamage",
+            "title": "Повреждение транспортного средства",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{606E3B53-0000-C213-86D3-590556EDA546}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "className": "ESBD_ObjectDamage",
+    "displayName": "Повреждения объекта",
+    "config": {
+      "preview": {
+        "title": "Повреждения объекта",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{806F3B53-0000-C110-8E49-CFF22E93CDCF}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Повреждения объекта",
+            "contentClass": "ESBD_ObjectDamage",
+            "title": "Добавить повреждение объекта",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{806F3B53-0000-C110-8E49-CFF22E93CDCF}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Повреждения объекта",
+            "contentClass": "ESBD_ObjectDamage",
+            "title": "Повреждения объекта",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{806F3B53-0000-C110-8E49-CFF22E93CDCF}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "className": "ESBD_ClientDamage",
+    "displayName": "Ущерб здоровью",
+    "config": {
+      "preview": {
+        "title": "Ущерб здоровью",
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{F0723B53-0000-CB1B-909A-1868C1DE1B8F}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Ущерб здоровью",
+            "contentClass": "ESBD_ClientDamage",
+            "title": "Добавить ущерб здоровью",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{F0723B53-0000-CB1B-909A-1868C1DE1B8F}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Ущерб здоровью",
+            "contentClass": "ESBD_ClientDamage",
+            "title": "Ущерб здоровью",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{F0723B53-0000-CB1B-909A-1868C1DE1B8F}"
+          }
+        ]
+      }
+    }
+  }
+]

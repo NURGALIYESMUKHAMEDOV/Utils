@@ -1,0 +1,77 @@
+#grid {
+    height:100%;
+}
+
+.categoryBoxEditor {
+    width: 100% !important;
+}
+
+.directoryEntryBoxEditor {
+    width: 100% !important;
+    white-space: normal;
+}
+
+.documentBoxEditorLink {
+    text-decoration: none;
+    color: blue;
+}
+
+.documentBoxEditorLink:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: default;
+}
+
+.directoryEntryBoxEditor div {
+   white-space: normal;
+}
+
+.quizBoxEditor {
+    width: 100% !important;
+}
+
+.employeesBoxEditor {
+    width: 100% !important;
+}
+
+.documentsBoxEditor {
+    width: 100% !important;
+}
+
+.resolutionsBoxEditor {
+    width: 100% !important;
+}
+
+.assignmentsBoxEditor {
+    width: 100% !important;
+}
+
+.divisionAndEmployeeBoxEditor {
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.divisionBoxEditor {
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.caseBoxEditor {
+    width: 100% !important;
+}
+
+.ref {
+    text-decoration: none;
+    color: blue;
+}
+
+.ref:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: default;
+}
+
+.gridx {
+    height: 100%;
+    width: 100%;
+}

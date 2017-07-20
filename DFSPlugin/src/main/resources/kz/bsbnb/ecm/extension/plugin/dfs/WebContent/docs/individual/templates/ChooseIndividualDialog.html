@@ -1,0 +1,61 @@
+<div data-dojo-type="dijit/layout/BorderContainer" gutters="false">
+
+    <div data-dojo-type="dijit/layout/ContentPane" region="top" style="padding:0;">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label>Ф.И.О.</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue" colspan="3">
+
+                    <input
+                        style="width: 30em;"
+                        data-dojo-props="required: false, readOnly: false"
+                        data-dojo-attach-point="nameNode"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="3">
+
+                    <div data-dojo-type="dijit/layout/ContentPane">
+
+                        <button
+                                data-dojo-attach-point="searchButton"
+                                data-dojo-type="dijit.form.Button"
+                                data-dojo-attach-event="onClick: onSearchSubmit">Поиск</button>
+
+                        <button
+                                data-dojo-attach-point="resetButton"
+                                data-dojo-type="dijit.form.Button"
+                                data-dojo-attach-event="onClick: onSearchReset">Сбросить</button>
+
+                    </div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div data-dojo-type="dijit/layout/ContentPane" region="center" style="padding:0;">
+
+        <div data-dojo-type="docs/individual/IndividualList" data-dojo-attach-point="individualList"></div>
+
+    </div>
+
+</div>

@@ -1,0 +1,59 @@
+.pvrSubProperty {
+}
+
+.pvrSubPropertyReadOnly .pvrSubPropertyLabel {
+    color: gray;
+}
+
+.pvrSubPropertyLabelWrapperHidden {
+	display: none;
+}
+
+.pvrSubPropertyAsterisk {
+	display: none;
+}
+
+.pvrSubPropertyRequired .pvrSubPropertyAsterisk {
+	display: inline-block;
+	color: #e87820;
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+.pvrSubPropertyHelp {
+	vertical-align: 2px;
+}
+
+.pvrSubPropertyHelp .idxHoverHelp .idxButtonIcon .idxHelpIcon {
+    background-image: url("../images/Help12.png") !important;
+    height: 12px;
+    width: 12px;
+    background-repeat: no-repeat;
+    margin-bottom: 4px;
+    background-position: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pvrSubPropertyHelp .idxHoverHelp .idxButtonIcon .dijitButtonNode,
+.pvrSubPropertyHelp .idxHoverHelp .dijitDropDownButton .dijitButtonNode {
+	/* override lotusui30 dropdownbutton styles */
+    border: none !important;
+    border-radius: 0!important;
+    padding: 0!important;
+    background: none!important;
+    min-width: 0 !important;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+	-moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0)!important;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0)!important;
+}
+
+.pvr-ar .pvrSubPropertyHelp .idxHoverHelp .idxButtonIcon .idxHelpIcon {
+    background-image: url("../images/Help12_ar.png") !important;
+}
+
+.pvrSubPropertyHidden,
+.pvrSubPropertyUnbound {
+	display: none;
+}
+

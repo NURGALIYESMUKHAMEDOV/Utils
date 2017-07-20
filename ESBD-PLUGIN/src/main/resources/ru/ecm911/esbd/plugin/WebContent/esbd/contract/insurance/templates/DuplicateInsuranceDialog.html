@@ -1,0 +1,45 @@
+<div>
+
+    <table cellpadding="2" cellspacing="2" border="0">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-submitDate">Дата заключения :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                        data-dojo-props="id: '${id}-submitDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                        data-dojo-attach-point="ESBD_SubmitDate"
+                        data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-number">Номер страхового полиса :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-number', required: false, style: {width: '10em'}"
+                    data-dojo-attach-point="ESBD_InsuranceCertificateNumber"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

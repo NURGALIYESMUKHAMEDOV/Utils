@@ -1,0 +1,12 @@
+[
+  {
+    "contentClass": "ESBD_GuiltyPerson",
+    "title": "Виновник",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{C0764653-0000-CA16-B399-84B721AD3052}",
+    "viewTitle": "Виновник",
+    "viewIntroText" : "Укажите параметры виновника",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{C0764653-0000-CA16-B399-84B721AD3052}",
+    "addTitle": "Виновник",
+    "addIntroText" : "Укажите параметры виновника"
+  }
+]

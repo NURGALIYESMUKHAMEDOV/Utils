@@ -1,0 +1,129 @@
+<div data-dojo-type="dijit/layout/BorderContainer" gutters="false">
+
+    <div data-dojo-type="dijit/layout/ContentPane" region="center" style="padding:0;">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel" valign="middle">
+
+                    <label style="white-space: nowrap">Сертификат :</label>
+
+                </td>
+
+                <td>
+
+                    <div data-dojo-attach-point="certificatesNode"></div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <div data-dojo-type="idx.layout.TitlePane" title="Информация о сертификате">
+
+            <table
+                class="propertyTable"
+                data-dojo-attach-point="certificateInfoNode"
+                cellpadding="5"
+                cellspacing="0">
+
+                <tr style="background-color: #eeeeee">
+
+                    <td class="propertyRowLabel" valign="middle">
+
+                        <label>Серийный номер</label>
+
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <div data-dojo-attach-point="serialNumberNode"></div>
+
+                    </td>
+
+                </tr>
+
+                <tr style="background-color: #ffffff">
+
+                    <td class="propertyRowLabel" valign="middle">
+
+                        <label>Субъект</label>
+
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <div data-dojo-attach-point="subjectNode"></div>
+
+                    </td>
+
+                </tr>
+
+                <tr style="background-color: #eeeeee">
+
+                    <td class="propertyRowLabel" valign="middle">
+
+                        <label>Выпущен</label>
+
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <div data-dojo-attach-point="issuerNode"></div>
+
+                    </td>
+
+                </tr>
+
+                <tr style="background-color: #ffffff">
+
+                    <td class="propertyRowLabel" valign="middle">
+
+                        <label style="white-space: nowrap">Действителен с</label>
+
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <div data-dojo-attach-point="notBeforeNode"></div>
+
+                    </td>
+
+                </tr>
+
+                <tr style="background-color: #eeeeee">
+
+                    <td class="propertyRowLabel" valign="middle">
+
+                        <label style="white-space: nowrap">Действителен по</label>
+
+                    </td>
+
+                    <td>:</td>
+
+                    <td>
+
+                        <div data-dojo-attach-point="notAfterNode"></div>
+
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

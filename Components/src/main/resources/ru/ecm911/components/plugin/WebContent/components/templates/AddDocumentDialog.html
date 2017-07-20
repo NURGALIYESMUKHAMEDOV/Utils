@@ -1,0 +1,50 @@
+<div
+        data-dojo-type="dijit/layout/ContentPane"
+        data-dojo-attach-point="contentPane">
+
+    <div
+        data-dojo-type="ecm/widget/TitlePane"
+        data-dojo-props="title: 'Тип'">
+
+        <table class="propertyTable">
+
+            <tr>
+
+                <td class="propertyRowLabel">
+
+                    <label for="${id}-contentClass">Тип</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td class="propertyRowValue">
+
+                    <div
+                        data-dojo-type="ecm/widget/FilteringSelect"
+                        data-dojo-attach-point="contentClassSelector"
+                        data-dojo-attach-event="onChange: _onClassChange"
+                        style="width: 300px">
+                    </div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div
+        data-dojo-type="ecm/widget/TitlePane"
+        data-dojo-props="title: 'Свойства'">
+
+        <div
+            data-dojo-type="dijit/layout/ContentPane"
+            data-dojo-attach-point="propertiesContainer">
+
+        </div>
+
+    </div>
+
+</div>

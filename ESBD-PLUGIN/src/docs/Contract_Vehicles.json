@@ -1,0 +1,13 @@
+[
+  {
+    "contentClass": "ESBD_Vehicle",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Транспортные средства",
+    "title": "Застрахованное транспортное средство",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{903AE752-0000-C41C-AA8E-365CF27B4787}",
+    "viewTitle": "Транспортное средство",
+    "viewIntroText": "Транспортное средство",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{0037E752-0000-CE1E-9714-62F4512BD8BC}",
+    "addTitle": "Транспортное средство",
+    "addIntroText": "Транспортное средство"
+  }
+]

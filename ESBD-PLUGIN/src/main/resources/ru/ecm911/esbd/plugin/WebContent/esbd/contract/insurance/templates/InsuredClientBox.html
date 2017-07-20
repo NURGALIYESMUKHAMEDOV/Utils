@@ -1,0 +1,232 @@
+<div>
+
+    <table cellpadding="2" cellspacing="0" border="0" style="padding-bottom: 5px">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-id">Идентификатор</label>
+
+            </td>
+
+            <td>
+
+                <label for="${id}-code"><div data-dojo-attach-point="codeLabel">ИНН</div></label>
+
+            </td>
+
+            <td>
+
+                <label for="${id}-name"><div data-dojo-attach-point="nameLabel">Ф.И.О.</div></label>
+
+            </td>
+
+            <td>
+
+                <label for="${id}-driverRating">Класс водителя</label>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-id', required: false, disabled: true, style:{width: '120px'}"
+                    data-dojo-attach-point="id"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-code', required: false, disabled: true, style:{width: '120px'}"
+                    data-dojo-attach-point="code"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-name', required: false, disabled: true, style:{width: '250px'}"
+                    data-dojo-attach-point="name"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <select
+                        data-dojo-props="id: '${id}-driverRating', required: false"
+                        data-dojo-attach-point="ESBD_DriverRating"
+                        data-dojo-type="ecm/widget/Select">
+                </select>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <table cellpadding="2" cellspacing="0" border="0" style="padding-bottom: 5px" data-dojo-attach-point="driverLicenseProps">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-dlNumber">Водительское удостоверение :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-dlNumber', required: false, style:{width: '120px'}"
+                    data-dojo-attach-point="ESBD_DriverLicenseNumber"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-dlIssueDate">Дата выдачи :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-dlIssueDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}"
+                    data-dojo-attach-point="ESBD_DriverLicenseIssueDate"
+                    data-dojo-attach-event="onChange: _onDriverLicenseIssueDateChanged"
+                    data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-drivingExperience">Страж вождения :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                        data-dojo-props="id: '${id}-drivingExperience', required: false, style:{width: '40px'}"
+                        data-dojo-attach-point="ESBD_DrivingExperience"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <table cellpadding="2" cellspacing="0" border="0" style="padding-bottom: 5px" data-dojo-attach-point="privilegeProps">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-priv">Льгота</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td>
+
+                <select
+                        data-dojo-props="id: '${id}-priv', required: false"
+                        data-dojo-attach-point="ESBD_PrivilegeDocumentType"
+                        data-dojo-attach-event="onChange: _onPrivilegeChange"
+                        data-dojo-type="ecm/widget/Select">
+
+                    <option value="Нет">Нет</option>
+
+                    <option value="Ветеран">Ветеран</option>
+
+                    <option value="Инвалид">Инвалид</option>
+
+                </select>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <div
+        data-dojo-type="dijit/layout/ContentPane"
+        data-dojo-attach-point="privilegePane"
+        style="display: none">
+
+        <table cellpadding="2" cellspacing="0" border="0">
+
+            <tr>
+
+                <td>
+
+                    <label for="${id}-privNum">Номер документа</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-privNum', required: false"
+                            data-dojo-attach-point="ESBD_PrivilegeDocumentNumber"
+                            data-dojo-type="ecm/widget/ValidationTextBox" />
+
+                </td>
+
+                <td>
+
+                    <label for="${id}-privIssueDate">Дата выдачи</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-privIssueDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}"
+                            data-dojo-attach-point="ESBD_PrivilegeDocumentIssueDate"
+                            data-dojo-type="ecm/widget/DatePicker" />
+
+                </td>
+
+                <td>
+
+                    <label for="${id}-privValidTo">Срок действия</label>
+
+                </td>
+
+                <td>:</td>
+
+                <td>
+
+                    <input
+                            data-dojo-props="id: '${id}-privValidTo', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}"
+                            data-dojo-attach-point="ESBD_PrivilegeDocumentValidTo"
+                            data-dojo-type="ecm/widget/DatePicker" />
+
+                </td>
+
+                <td>&nbsp;</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

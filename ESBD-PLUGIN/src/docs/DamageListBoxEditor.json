@@ -1,0 +1,24 @@
+[
+  {
+    "contentClass": "ESBD_VehicleDamage",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{40D1FD52-0000-C610-95C1-C3FCB5A944BA}",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{40D1FD52-0000-C610-95C1-C3FCB5A944BA}",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица",
+    "title": "Повреждение транспортного средства",
+    "introText" : "Укажите параметры повреждения транспортного средства"
+  }, {
+    "contentClass": "ESBD_ObjectDamage",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{10D7FD52-0000-CA11-8E8D-8E369E1643DC}",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{10D7FD52-0000-CA11-8E8D-8E369E1643DC}",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Юридические лица",
+    "title": "Повреждение объекта",
+    "introText" : "Укажите параметры повреждения объекта, включая выгодоприобретателя и экспертизу"
+  }, {
+    "contentClass": "ESBD_ClientDamage",
+    "viewEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{F089FD52-0000-CA13-80C4-43BF165BB1F4}",
+    "addEntryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{F089FD52-0000-CA13-80C4-43BF165BB1F4}",
+    "searchTemplatesPath": "/Конфигурация/Поиск/Юридические лица",
+    "title": "Ущерб здоровью",
+    "introText" : "Укажите параметры ущерба здоровью"
+  }
+]

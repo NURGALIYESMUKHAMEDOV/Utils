@@ -1,0 +1,45 @@
+<div>
+    <!-- Label and star indicator. Do not change this part. -->
+    <div class="idxLabel dijitInline dijitHidden" dojoAttachPoint="labelWrap">
+        <label dojoAttachPoint="compLabelNode"></label>
+    </div>
+
+    <!-- Custom code goes in the div with stateNode and oneuiBaseNode attach point. -->
+    <div dojoAttachPoint="stateNode,oneuiBaseNode">
+
+        <div data-dojo-attach-point="focusNode">
+
+            <table>
+
+                <tr>
+
+                    <td>
+
+                        <div data-dojo-attach-point="emptyNode" style="display: none">не указан</div>
+
+                        <div data-dojo-attach-point="loadingNode" style="display: none">загрузка...</div>
+
+                        <div data-dojo-attach-point="documentNode" data-dojo-attach-event="onclick: _onOpen" class="documentBoxEditorLink" style="display: none"></div>
+
+                    </td>
+
+                    <td>&nbsp;</td>
+
+                    <td><button data-dojo-attach-point="buttonNode" data-dojo-attach-event="onclick: _onChoose">Загрузить...</button></td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- Error icon. Do not change this part. -->
+    <div class='dijitReset dijitInline dijitValidationContainer' dojoAttachPoint="iconNode">
+        <div class="dijitValidationIcon">
+            <input class="dijitReset dijitInputField dijitValidationInner" value="&#935; " type="text"
+                   tabIndex="-1" readonly="readonly" role="presentation"/>
+        </div>
+    </div>
+</div>

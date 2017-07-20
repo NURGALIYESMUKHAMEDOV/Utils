@@ -1,0 +1,77 @@
+<div>
+
+    <table class="propertyTable">
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="code">Индекс дела</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue" colspan="3">
+
+                <input
+                        data-dojo-props="id: 'code', required: false"
+                        data-dojo-attach-point="code"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="unit">Структурное подразделение</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue" colspan="3">
+
+                <input
+                        data-dojo-props="id: 'unit', required: false"
+                        data-dojo-attach-point="unit"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="5">
+
+                <div data-dojo-type="dijit/layout/ContentPane">
+
+                    <button
+                            data-dojo-attach-point="searchButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: onSearchSubmit">Поиск</button>
+
+                    <button
+                            data-dojo-attach-point="resetButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: onSearchReset">Сбросить</button>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <div
+            data-dojo-type="ecm/widget/listView/ContentList"
+            data-dojo-attach-point="list">
+
+    </div>
+
+</div>

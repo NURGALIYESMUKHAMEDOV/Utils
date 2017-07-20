@@ -1,0 +1,19 @@
+<div>
+
+    The following configuration parameters are provided by the configuration component of the sample plug-in.
+
+    You can use the text in this area to introduce the configuration parameters.
+
+    <table class="propertyTable" role="presentation">
+        <tr>
+            <td class="propertyRowLabel">
+                <span class="required">*</span>
+                <label id="${id}_tsUrlLabel" for="${id}_tsUrl">Адрес сервера штампов времени:</label>&nbsp;
+                <div data-dojo-type="dijit/Tooltip" data-dojo-props="connectId:'${id}_tsUrl'" data-dojo-attach-point="param1FieldHelp" >Укажите адрес сервера штампов времени, например: http://....</div>
+            </td>
+            <td class="propertyRowValue">
+                <div id="${id}_tsUrl" data-dojo-attach-point="tsUrl" data-dojo-attach-event="onKeyUp: _onParamChange" maxLength="100" data-dojo-type="ecm.widget.ValidationTextBox" required="true" trim="true" propercase="false"></div>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,74 @@
+[
+  {
+    "className": "ESBD_Person",
+    "displayName": "Физическое лицо",
+    "config": {
+      "list": {
+        "title": "Выгодоприобретатель",
+        "description": "Найдите выгодоприобретателя",
+        "searchTemplatesPath": "/Конфигурация/Поиск/Физические лица"
+      },
+      "preview": {
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{80D4FD52-0000-C41E-8F7E-7A3920B2366C}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Физическое лицо",
+            "contentClass": "ESBD_Person",
+            "title": "Новое физическое лицо",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{100B2F53-0000-C71D-993F-794C9DBD8674}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Физическое лицо",
+            "contentClass": "ESBD_Person",
+            "title": "Физическое лицо",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{100B2F53-0000-C71D-993F-794C9DBD8674}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "className": "ESBD_Entity",
+    "displayName": "Юридическое лицо",
+    "config": {
+      "list": {
+        "title": "Выгодоприобретатель",
+        "description": "Найдите выгодоприобретателя",
+        "searchTemplatesPath": "/Конфигурация/Поиск/Юридические лица"
+      },
+      "preview": {
+        "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{000EA553-0000-C516-9170-39B977708BC4}"
+      },
+      "add": {
+        "classes": [
+          {
+            "className": "Юридическое лицо",
+            "contentClass": "ESBD_Entity",
+            "title": "Новое юридическое лицо",
+            "description": "Укажите требуемые для добавления параметры",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{000A2F53-0000-C114-8235-59A89297FEC7}"
+          }
+        ]
+      },
+      "modify": {
+        "classes": [
+          {
+            "className": "Юридическое лицо",
+            "contentClass": "ESBD_Entity",
+            "title": "Юридическое лицо",
+            "description": "Внесите требуемые изменения и сохраните",
+            "entryTemplate": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{000A2F53-0000-C114-8235-59A89297FEC7}"
+          }
+        ]
+      }
+    }
+  }
+]

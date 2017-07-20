@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+    <context-param>
+        <param-name>connectionUrl</param-name>
+        <param-value>iiop://localhost:2809/FileNet/Engine</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>p8admin</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>s5XSVRxN</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>domainName</param-name>
+        <param-value>demo</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>objectStoreName</param-name>
+        <param-value>ECM</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>securitymgmt.securitymgmt.sl.DownloadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>

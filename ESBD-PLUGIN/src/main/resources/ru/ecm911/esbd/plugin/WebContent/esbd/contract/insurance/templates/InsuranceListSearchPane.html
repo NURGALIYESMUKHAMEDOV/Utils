@@ -1,0 +1,86 @@
+<div>
+
+    <table class="propertyTable">
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="insuranceNumber">Номер полиса</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue" colspan="3">
+
+                <input
+                        data-dojo-props="id: 'insuranceNumber', required: false"
+                        data-dojo-attach-point="insuranceNumber"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="submitDateFrom">Дата заключения</label>
+
+            </td>
+
+            <td>:</td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: 'submitDateFrom', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                        data-dojo-attach-point="submitDateFrom"
+                        data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+            <td class="propertyRowLabel" valign="middle">
+
+                <label for="submitDateTo">-</label>
+
+            </td>
+
+            <td class="propertyRowValue">
+
+                <input
+                        data-dojo-props="id: 'submitDateTo', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                        data-dojo-attach-point="submitDateTo"
+                        data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="5">
+
+                <div data-dojo-type="dijit/layout/ContentPane">
+
+                    <button
+                            data-dojo-attach-point="searchButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: _onSearch">Поиск</button>
+
+                    <button
+                            data-dojo-attach-point="resetButton"
+                            data-dojo-type="dijit.form.Button"
+                            data-dojo-attach-event="onClick: onReset">Сбросить</button>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

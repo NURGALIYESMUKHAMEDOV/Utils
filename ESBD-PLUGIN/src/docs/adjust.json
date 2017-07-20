@@ -1,0 +1,104 @@
+{
+  "pages": [
+    {
+      "title": "Договора страхования",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Страховые договора"
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "Договор страхования",
+              "contentClass": "ESBD_InsuranceContract",
+              "title": "Новый договор страхования",
+              "description": "Укажите необходимые параметры при создании договора страхования",
+              "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{30A56453-0000-C61F-BA91-15376AD15170}"
+            },
+            {
+              "className": "Договор страхования ОС РНС",
+              "contentClass": "ESBD_InsuranceContract_OS_RNS",
+              "title": "Новый договор страхования ОС РНС",
+              "description": "Укажите необходимые параметры при создании договора страхования ОС РНС",
+              "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{2099B153-0000-CF10-8022-78408C9E1AE1}"
+            }
+          ]
+        },
+        "modify": {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "Договор страхования",
+              "contentClass": "ESBD_InsuranceContract",
+              "title": "Договор страхования",
+              "description": "Параметры договора страхования",
+              "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{30A56453-0000-C61F-BA91-15376AD15170}"
+            },
+            {
+              "className": "Договор страхования ОС РНС",
+              "contentClass": "ESBD_InsuranceContract_OS_RNS",
+              "title": "Договор страхования ОС РНС",
+              "description": "Параметры договора страхования ОС РНС",
+              "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{2099B153-0000-CF10-8022-78408C9E1AE1}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Страховые случаи",
+      "config": {
+        "list": {
+          "searchTemplatesPath": "/Конфигурация/Поиск/Страховые случаи"
+        },
+        "add": {
+          "classes": [
+            {
+              "className": "Страховой случай",
+              "contentClass": "ESBD_InsuranceCase",
+              "title": "Новый страховой случай",
+              "description": "Укажите необходимые параметры для ввода страхового случая",
+              "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{E0784653-0000-CF13-B300-FC426DE9C9F3}"
+            }
+          ]
+        },
+        "modify":
+        {
+          "toolbarDef": "ESBDDocumentMenuType",
+          "classes": [
+            {
+              "className": "Страховой случай",
+              "contentClass": "ESBD_InsuranceCase",
+              "title": "ESBD_InsuranceCase",
+              "description": "Параметры стахового случая",
+              "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{E0784653-0000-CF13-B300-FC426DE9C9F3}"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "ESBDCancelDocumentAction",
+      "title": "Дострочное расторжение",
+      "description": "Укажите дату и причину досрочного расторжения",
+      "contentClass": "ESBD_CancelDocumentAction",
+      "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{80D05553-0000-C71F-AD9A-2235257D8408}"
+    },
+    {
+      "id": "ESBDCancelDueDuplicateDocumentAction",
+      "title": "Дубликат",
+      "description": "Укажите дату и и новый номер страхового полиса",
+      "contentClass": "ESBD_CancelDueDuplicateDocumentAction",
+      "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{80CD5553-0000-C51B-8A8B-9E50A9F7073F}"
+    },
+    {
+      "id": "ESBDCancelDueErrorDocumentAction",
+      "title": "Ошибка оператора",
+      "description": "Укажите дату и причину расторжения",
+      "contentClass": "ESBD_CancelDueErrorDocumentAction",
+      "entryTemplate": "EntryTemplate,{E9EF10C3-42DA-4008-8750-091E7BC9BA52},{30CF5553-0000-C717-907A-5370FD9171EF}"
+    }
+  ]
+}

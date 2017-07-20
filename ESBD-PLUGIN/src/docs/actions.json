@@ -1,0 +1,8 @@
+[
+  {
+    "name" : "openDocument",
+    "displayName" : "Открыть",
+    "visibility" : "if (payload.item == '') return false;",
+    "performAction" : ""
+  }
+]

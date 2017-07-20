@@ -1,0 +1,166 @@
+<div>
+
+    <table cellpadding="2" cellspacing="0" border="0" style="padding-bottom: 5px">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-brand">Марка :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-brand', required: false, style: {width: '150px'}, disabled: true"
+                    data-dojo-attach-point="ESBD_VehicleBrand"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-model">Модель :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-model', required: false, style: {width: '150px'}, disabled: true"
+                    data-dojo-attach-point="ESBD_VehicleModel"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-VIN">Номер кузова (VIN) / Шасси :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-VIN', required: false, style: {width: '200px'}, disabled: true"
+                    data-dojo-attach-point="ESBD_VIN"
+                    data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-issueYear">Год выпуска :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                        data-dojo-props="id: '${id}-issueYear', required: false, style: {width: '50px'}, disabled: true"
+                        data-dojo-attach-point="ESBD_VehicleIssueYear"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <table cellpadding="2" cellspacing="0" border="0" style="padding-bottom: 5px">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-VRN">Государственный номер :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                        data-dojo-props="id: '${id}-VRN', required: false, style: {width: '100px'}"
+                        data-dojo-attach-point="ESBD_VRN"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-vrLocation">Район регистрации :</label>
+
+            </td>
+
+            <td>
+
+                <select
+                        data-dojo-props="id: '${id}-vrLocation', required: false"
+                        data-dojo-attach-point="ESBD_VehicleRegistrationRegion"
+                        data-dojo-attach-event="onChange: _onRegionChange"
+                        data-dojo-type="ecm/widget/Select">
+                </select>
+
+
+            </td>
+
+            <td>
+
+                <label for="${id}-vrCity">Город районного значения :</label>
+
+            </td>
+
+            <td>
+
+                <select
+                        data-dojo-props="id: '${id}-vrCity', required: false"
+                        data-dojo-attach-point="ESBD_VehicleRegistrationCity"
+                        data-dojo-type="ecm/widget/Select">
+                </select>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <table cellpadding="2" cellspacing="0" border="0">
+
+        <tr>
+
+            <td>
+
+                <label for="${id}-certificateNumber">Номер технического паспорта :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                        data-dojo-props="id: '${id}-certificateNumber', required: false, style: {width: '120px'}"
+                        data-dojo-attach-point="ESBD_VehicleCertificateNumber"
+                        data-dojo-type="ecm/widget/ValidationTextBox" />
+
+            </td>
+
+            <td>
+
+                <label for="${id}-certificateIssueDate">Дата выдачи технического паспорта :</label>
+
+            </td>
+
+            <td>
+
+                <input
+                    data-dojo-props="id: '${id}-certificateIssueDate', required: false, selector: 'date', showFormatPattern: true, constraints: {datePattern: 'dd.MM.yyyy', invalidMessage: 'Дата указана неверно'}, style: {width: '120px'}"
+                    data-dojo-attach-point="ESBD_VehicleCertificateIssueDate"
+                    data-dojo-type="ecm/widget/DatePicker" />
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>

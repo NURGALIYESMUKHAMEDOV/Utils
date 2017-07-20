@@ -1,0 +1,50 @@
+<div id="widget_${id}" class="dijitInline dijitReset dijitLeft idxComposite">
+
+    <div class="idxLabel dijitInline dijitHidden" data-dojo-attach-point="labelWrap">
+
+        <span class="idxRequiredIcon">*&nbsp</span>
+
+        <label for="${id}" data-dojo-attach-point="compLabelNode"></label>
+
+    </div>
+
+    <div class="dijitInline" data-dojo-attach-point="fieldWrap" style="width: 100%">
+
+        <div class="dijitInputContainer" tabIndex="0" data-dojo-attach-point='focusNode,stateNode,oneuiBaseNode' autocomplete='off' style="width: 100%">
+
+            <div class="dijitInline">
+
+                <div
+                    data-dojo-type="dijit/form/NumberTextBox"
+                    data-dojo-attach-point="contentNode,textbox"
+                    data-dojo-props="disabled: true"
+                    style="width: 120px">
+
+                </div>
+
+                <div
+                    data-dojo-type="dijit/form/Button"
+                    data-dojo-attach-point="_calculateButton"
+                    data-dojo-attach-event="onClick: _onCalculate">Расчитать</div>
+
+                <div class="dijitReset dijitValidationContainer dijitInline" data-dojo-attach-point="iconNode">
+
+                    <div class="dijitValidationIcon">
+
+                        <input class="dijitReset dijitInputField dijitValidationInner" value="&#935; " type="text" tabIndex="-1" readonly="readonly" role="presentation"/>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="idxUnit dijitInline dijitHidden" data-dojo-attach-point="compUnitNode"></div>
+
+        </div>
+
+        <div class="dijitHidden idxHintOutside" data-dojo-attach-point="compHintNode"></div>
+
+    </div>
+
+</div>

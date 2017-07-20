@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+    <context-param>
+        <param-name>CEURI</param-name>
+        <param-value>iiop://localhost:2809/FileNet/Engine</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>CaseTypeHandlerServlet</servlet-name>
+        <servlet-class>securitymgmt.securitymgmt.dfs.CaseTypeHandlerServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>InboxDocumentCaseHandlerServlet</servlet-name>
+        <servlet-class>securitymgmt.securitymgmt.dfs.InboxDocumentCaseHandlerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CaseTypeHandlerServlet</servlet-name>
+        <url-pattern>/types</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>InboxDocumentCaseHandlerServlet</servlet-name>
+        <url-pattern>/type/DFS_IncomingDocumentCase</url-pattern>
+    </servlet-mapping>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>action</web-resource-name>
+            <url-pattern>/</url-pattern>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>All Authenticated</role-name>
+        </auth-constraint>
+        <user-data-constraint>
+            <transport-guarantee>NONE</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+
+    <security-role>
+        <description>All Authenticated</description>
+        <role-name>All Authenticated</role-name>
+    </security-role>
+
+</web-app>

@@ -1,0 +1,26 @@
+{
+  "actions": {
+    "ESBD_RecissionDueDuplicateAction" : {
+      "entryTemplate" : "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{80CD5553-0000-C51B-8A8B-9E50A9F7073F}",
+      "title" : "Дубликат",
+      "introText" : "Расторжение текущего с выпуском дубликата"
+    },
+    "ESBD_RecissionDueErrorAction" : {
+      "entryTemplate" : "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{30CF5553-0000-C717-907A-5370FD9171EF}",
+      "title" : "Ошибка оператора",
+      "introText" : "Расторжение по причине ошибки оператора"
+    },
+    "ESBD_EarlyRecissionAction" : {
+      "entryTemplate" : "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{80D05553-0000-C71F-AD9A-2235257D8408}",
+      "title" : "Досрочное расторжение",
+      "introText" : "Досрочное рассторжение с возвратом части страховой премии"
+    }
+  },
+  "entryTemplates" : {
+    "create" : {
+      "ESBD_InsuranceContract": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{401AE952-0000-C91F-BEE1-6E0A13D92959}",
+      "ESBD_InsuranceCase": "EntryTemplate,{3D290B7C-5E36-49FC-A126-AF79357CC44B},{5033EC52-0000-CF16-9ADB-42F00C95A0EB}"
+    }
+  }
+
+}
