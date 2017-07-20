@@ -1,2 +1,2 @@
 2017-07-16 22:00:01,419 +0600 [main] INFO  (ConnectionImpl.java:32) - Configuration property file search order:
-    user.dir = C:\ESBD_forall\ESBDt\UtilsV1\Utils
+    user.dir = C:\ESBD_forall\ESBDt\UtilsV1\Util
