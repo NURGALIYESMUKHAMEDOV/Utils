@@ -41,7 +41,7 @@ public class SamplePluginAsyncTaskType extends PluginAsyncTaskType {
 	 * @return A short description for the menu.
 	 */
 	public String getName(Locale locale){
-		return "Sample Plugin ICN Task";
+		return "Добавить агент для карточки согласовании закупок";
 	}
 
 	/**
