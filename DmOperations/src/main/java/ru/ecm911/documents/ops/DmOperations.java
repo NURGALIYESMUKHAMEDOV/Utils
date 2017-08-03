@@ -121,6 +121,67 @@ public class DmOperations
         }
     }
 
+    public String getFieldValueInProfile(String objectStoreName, String fieldName){
+
+        Context context = new Context();
+
+        context.log("entering getFieldValueInProfile ...");
+
+        context.log("\tobjectStoreName: " + objectStoreName);
+
+        context.log("\temployeeId: " + fieldName);
+
+        try
+        {
+            if (context.init())
+            {
+                context.log("context initialized");
+
+                ObjectStore objectStore = Factory.ObjectStore.fetchInstance(context.getDomain(), objectStoreName, null);
+
+                context.log("objectstore: " + objectStore);
+
+                String query = "SELECT e.["+fieldName+"] FROM [PPG_Profile] e";
+
+                context.log("query: " + query);
+
+                SearchSQL searchSQL = new SearchSQL();
+
+                searchSQL.setQueryString(query);
+
+                SearchScope searchScope = new SearchScope(objectStore);
+
+                RepositoryRowSet rowSet = searchScope.fetchRows(searchSQL, null, null, Boolean.valueOf(false));
+                if (rowSet != null)
+                {
+                    Iterator it = rowSet.iterator();
+                    if (it.hasNext())
+                    {
+                        RepositoryRow row = (RepositoryRow)it.next();
+
+                        Properties properties = row.getProperties();
+
+                        context.log("result : " + properties.getStringValue(fieldName));
+
+                        return properties.getStringValue(fieldName);
+                    }
+                }
+
+            }
+
+        }
+        catch (Exception e)
+        {
+            context.log(e);
+        }
+        finally
+        {
+            context.destroy();
+        }
+        return null;
+
+    }
+
     public String getUsernameByEmployeeId(String objectStoreName, int employeeId)
     {
         Context context = new Context();
